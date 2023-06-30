@@ -1,9 +1,8 @@
 *{
     margin: 0;
-    /* background-color: rgb(207, 249, 249); */
 }
 .container{
-    width: 1350px;
+    max-width: 1350px;
     margin: auto ; 
     box-sizing: border-box;
     background-color: rgb(253, 254, 255);
@@ -51,13 +50,19 @@
 .text{
     position: absolute;
     top: 200px;
-    /* right: 550px;
-    height: 100px;*/
     width: 200px;
     padding: 50px 150px; 
-    color: azure;
+    color: rgb(255, 255, 255);
     background-color: rgb(90,110,121);
     z-index: 3; 
+}
+.text h2{
+    font-size: 2rem;
+}
+.text p{
+    line-height: 1.5rem;
+    width: 320px;
+    padding-top: 10px;
 }
 .box{
     height: 100px;
@@ -205,6 +210,7 @@
     background-color: rgb(90,110,121);
     border-radius: 50px;
     margin-top: 5px;
+    color: white;
 }
 .exp_number span{
     font-size: 3.2rem;
@@ -223,18 +229,21 @@
 }
 .reviews{
     padding-left: 140px;
-    padding-right: 70px;
+    padding-right: 110px;
 }
 .review_heading{
     display: flex;
     padding-bottom: 50px;
+    justify-content: space-between;
 }
 .review_heading h2{
     font-size: 2.5rem;
     /* padding-right: 50px; */
 }
-.review_heading fa{
-    padding-left: 100px;
+.review_arrow{
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
 }
 .replys{
     display: flex;
@@ -281,11 +290,15 @@
 .profile{
     display: flex;
 }
+.profile p{
+    line-height: 1.5rem ;
+}
 .profile_img{
     object-fit: cover;
     height: 50px;
     width: 50px;
     border-radius: 25px;
+    margin-right: 25px;
 }
 .subscribe{
     padding-left: 140px;
@@ -334,10 +347,11 @@
 .footer_label{
     width: 30%;
     padding-right: 50px;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 .footer h2{
     font-size: 1.8rem;
+    padding-bottom: 20px;
 }
 .footer p{
     margin-right: 50px;
@@ -345,17 +359,17 @@
 }
 .footer_more{
     display: flex;
-    padding-top: 60px;
+    padding-top: 80px;
     justify-content: center;
     padding-left: 50px;
     gap: 1.5rem;
 }
 .footer_more h4{
     font-size: 1.2rem;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .social{
     display: flex;
-    padding-top: 10px;
+    padding-top: 20px;
     gap: 1.2rem;
 }
