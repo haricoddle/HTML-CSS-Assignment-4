@@ -373,3 +373,477 @@
     padding-top: 20px;
     gap: 1.2rem;
 }
+/* MEDIA QUERIES */
+@media  screen and (min-width: 320px) and (max-width: 500px) {
+    .navbar{
+        height: 80px;
+        display: inline;
+        margin-bottom: 50px;
+    }
+    .logo{
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 2rem;
+        color: rgb(90,110,121) ;
+    }
+    .logo p{
+        padding-left: 40px;
+        font-size: 1.5rem;
+        color: rgb(90,110,121) ;
+    }
+    .links{
+        display: flex;
+        justify-content: space-around;
+        gap: 1.2rem;
+        margin-right: 0;
+        padding-left: 5px;
+    }
+    .links a{
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: black;
+    }
+    .icons{
+        display: none;
+    } 
+    .arrow{
+        display: none;
+    }
+    .box{
+        display: none;
+    }
+    .banner{
+        padding-bottom: 100px;
+    }
+    .banner img{
+        height: 250px;
+        width: 350px;
+        position: relative;
+        left: 0;
+        object-fit: cover;
+        border-radius: 5px;
+        padding-left: 9px;
+    }        
+    .text{
+        position: absolute;
+        background:  rgb(90,110,121);
+        top: 264px;
+        left: 30px;
+        width: 262px;
+        line-height: 25px;
+        padding: 10px 15px 10px 15px;
+        color: whitesmoke;
+    }
+    .benifits i{
+        font-size: 4rem;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    .benifits h2{
+        font-size: 2rem;
+        padding-right: 0;
+    }
+    .perks{
+        display: inline;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .qualities{
+        padding-bottom: 15px;
+    }
+    .qualities img{
+        height: 64px;
+        width: 64px;
+    }
+    .qualities p{
+        padding-inline: 20px;
+        line-height: 1.5rem;
+    }
+    .qualities h3{
+        padding-left: 20px;
+    }
+    .statistics{
+    display: inline; 
+    padding: 0px 0px 100px 0px;
+    }
+    .statistics img{
+        height: 250px;
+        width: 350px;
+        padding-left: 10px;
+    }
+    .stat_text{
+        width: auto;
+        padding-left: 10px;
+    }
+    .stat_text h2{
+        font-size: 1.5rem;
+        padding-right: 0;
+        line-height: 2rem;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+    .stat_text p{
+        padding-right: 0;
+        line-height: 1.5rem;
+        padding-bottom: 5px;
+    }
+    .stat_numbers{
+        gap: 3rem;
+    }
+    .stat_text button{
+        margin-top: 0;
+        margin-left: 90px;
+    }
+    .experience{
+        display: inline;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    .experience_text{
+        width: auto;
+    }
+    .experience_image{
+        width: auto;
+    }
+    .experience_image img{
+        height: 250px;
+        width: 350px;
+        padding-left: 10px;
+    }
+    .exp_heading{
+        padding-right: 0px;
+        padding-left: 15px;
+        width: auto;
+    }
+    .exp_number p{
+        margin-left: 15px;
+    }
+    .exp_number span{
+        padding-left: 35px;
+        font-size: 4.6rem;
+    }
+    .exp_details{
+        padding: 60px 0px 10px 15px;
+    }
+    .exp_details p{
+        width: auto;
+    }
+    .reviews{
+        padding-left: 10px;
+        padding-right: 0
+    }
+    .review_heading h2{
+        padding-top: 40px;
+    }
+    .review_arrow{
+        display: none;
+    }
+    .replys{
+        display: inline;
+    }
+    .replys i{
+        font-size: 5rem;
+        padding-top: 20px;
+    }
+    .reply_1{
+        width: 267px;
+        margin-bottom: 20px;
+    }
+    .reply_2{
+        width: 267px;
+        margin-bottom: 20px;
+    }
+    .subscribe{
+        padding-left: 10px;
+        padding-right: 0px;
+        padding-top: 30px;
+    }
+    .subscribe h2{
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+    .subscribe p{
+        padding: 25px 0px 10px 30px;
+    }
+    .sub_mail{
+        width: auto;
+        margin-left: 0px;
+    }
+    .sub_mail p{
+        padding: 10px 20px 10px 20px;
+    }
+    .footer{
+        display: inherit;
+    padding-left: 0;
+    padding-right: 0px;
+    width: max-content;
+    }
+    .footer h2{
+        padding-right: 60px;
+    }
+    .footer_label{
+        width: 264px;
+        text-align: center;
+        padding-top: 80px;
+        padding-left: 78px;
+        padding-right: 23px;
+    }
+    .footer_label p{
+        padding-left: 0px;
+    }
+    .footer_more{
+        display: inline;
+       text-align: center;
+    }
+    .footer_more p{
+        margin-right: 0px;
+    }
+    .footer_more h4{
+        font-size: 1.6rem;
+        padding-bottom: 15px;
+        padding-top: 25px;
+    }
+    .social{
+        justify-content: center;
+        display: flex;
+        padding-top: 20px;
+        gap: 1.2rem;
+    }
+}
+
+@media  screen and (min-width: 500px) and (max-width: 700px) {
+    .navbar{
+        height: 80px;
+        display: inline;
+        margin-bottom: 50px;
+    }
+    .logo{
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 2rem;
+        color: rgb(90,110,121) ;
+    }
+    .logo p{
+        padding-left: 40px;
+        font-size: 1.5rem;
+        color: rgb(90,110,121) ;
+    }
+    .links{
+        display: flex;
+        justify-content: space-around;
+        gap: 1.2rem;
+        margin-right: 0;
+        padding-left: 5px;
+    }
+    .links a{
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: black;
+    }
+    .icons{
+        display: none;
+    } 
+    .arrow{
+        display: none;
+    }
+    .box{
+        display: none;
+    }
+    .banner{
+        padding: 20px 0px 100px 53px;
+    }
+    .banner img{
+        height: 300px;
+        width: 400px;
+        position: relative;
+        left: 0;
+        object-fit: cover;
+        border-radius: 5px;
+        padding-left: 9px;
+    }        
+    .text{
+        position: absolute;
+        background:  rgb(90,110,121);
+        top: 340px;
+        left: 20px;
+        width: 262px;
+        line-height: 25px;
+        padding: 10px 15px 10px 15px;
+        color: whitesmoke;
+    }
+    .benifits i{
+        font-size: 4rem;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .benifits h2{
+        font-size: 2rem;
+        padding-right: 0;
+    }
+    .perks{
+        display: inline;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .qualities{
+        padding: 0px 0px 15px 20px;
+    }
+    .qualities img{
+        height: 64px;
+        width: 64px;
+    }
+    .qualities p{
+        padding-inline: 20px;
+        line-height: 1.5rem;
+    }
+    .qualities h3{
+        padding-left: 20px;
+    }
+    .statistics{
+    display: inline; 
+    padding: 0px 0px 100px 0px;
+    }
+    .statistics img{
+        height: 250px;
+        width: 400px;
+        padding-left: 60px;
+    }
+    .stat_text{
+        width: auto;
+        padding-left: 10px;
+    }
+    .stat_text h2{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding: 10px 0px 15px 20px;
+    }
+    .stat_text p{
+        line-height: 1.5rem;
+        padding: 0px 0px 5px 20px;
+    }
+    .stat_numbers{
+        gap: 3rem;
+    }
+    .stat_numbers h3 {
+        padding-left: 20px;
+    }
+    .stat_text button{
+        margin-top: 0;
+        margin-left: 125px;
+    }
+    .experience{
+        display: inline;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    .experience_text{
+        width: auto;
+    }
+    .experience_image{
+        width: auto;
+    }
+    .experience_image img{
+        height: 260px;
+        width: 410px;
+        padding-left: 60px;
+    }
+    .exp_heading{
+        padding-right: 0px;
+        padding-left: 15px;
+        width: auto;
+    }
+    .exp_number p{
+        margin-left: 15px;
+    }
+    .exp_number span{
+        padding-left: 35px;
+        font-size: 3.2rem;
+    }
+    .exp_details{
+        padding: 60px 0px 10px 15px;
+    }
+    .exp_details p{
+        width: auto;
+    }
+    .reviews{
+        padding-left: 10px;
+        padding-right: 0
+    }
+    .review_heading h2{
+        padding: 40px 0px 0px 20px;
+    }
+    .review_arrow{
+        display: none;
+    }
+    .replys{
+        display: inline;
+    }
+    .replys i{
+        font-size: 5rem;
+        padding-top: 20px;
+    }
+    .reply_1{
+        width: 350px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    .reply_2{
+        width: 350px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    .subscribe{
+        padding-left: 10px;
+        padding-right: 0px;
+        padding-top: 30px;
+    }
+    .subscribe h2{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .subscribe p{
+        padding: 25px 0px 10px 20px;
+    }
+    .sub_mail{
+        width: 450px;
+        margin-left: 15px;
+    }
+    .sub_mail p{
+        padding: 10px 20px 10px 20px;
+    }
+    .footer{
+        display: inherit;
+    padding-left: 0;
+    padding-right: 0px;
+    /* width: max-content; */
+    }
+    .footer h2{
+        padding-right: 60px;
+    }
+    .footer_label{
+        width: auto;
+        text-align: center;
+        padding: 80px 23px 0px 55px;
+    }
+    .footer_label p{
+        padding-left: 0px;
+    }
+    .footer_more{
+        display: inline;
+       text-align: center;
+    }
+    .footer_more p{
+        margin-right: 0px;
+    }
+    .footer_more h4{
+        font-size: 1.6rem;
+        padding-bottom: 15px;
+        padding-top: 25px;
+    }
+    .social{
+        justify-content: center;
+        display: flex;
+        padding-top: 20px;
+        gap: 1.2rem;
+    }
+}
