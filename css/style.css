@@ -238,12 +238,14 @@
 }
 .review_heading h2{
     font-size: 2.5rem;
-    /* padding-right: 50px; */
 }
 .review_arrow{
     display: flex;
     gap: 2rem;
     font-size: 2rem;
+}
+.fa-long-arrow-left{
+    color: grey;
 }
 .replys{
     display: flex;
@@ -611,7 +613,6 @@
         gap: 1.2rem;
     }
 }
-
 @media  screen and (min-width: 500px) and (max-width: 700px) {
     .navbar{
         height: 80px;
@@ -814,9 +815,8 @@
     }
     .footer{
         display: inherit;
-    padding-left: 0;
-    padding-right: 0px;
-    /* width: max-content; */
+        padding-left: 0;
+        padding-right: 0px;
     }
     .footer h2{
         padding-right: 60px;
