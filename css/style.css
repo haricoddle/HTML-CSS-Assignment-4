@@ -4,10 +4,9 @@
 .container{
     max-width: 1350px;
     margin: auto ; 
-    box-sizing: border-box;
     background-color: rgb(253, 254, 255);
 }
- .navbar{
+ .nav_icons{
     height: 80px;
     display: flex;
     justify-content: space-evenly;
@@ -15,10 +14,9 @@
 }
 .logo{
     padding-right:100px;
-    padding-left: 50px;
 }
 .logo p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: rgb(90,110,121) ;
 }
 .links{
@@ -27,18 +25,19 @@
     gap: 4rem;
 }
 .links a{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-decoration: none;
     color: black;
 }
 .icons{
     display: flex;
     gap: 3rem;
+    font-size: 1.4rem;
 } 
-.banner{
+.banner_content{
     display: flex;
 }
-.banner img{
+.banner_content img{
     position: relative;
     left: 380px;
     object-fit: cover;
@@ -51,19 +50,22 @@
 .text{
     position: absolute;
     top: 200px;
-    width: 200px;
+    right: 51%;
+    width: 100%;
     padding: 50px 150px; 
     color: rgb(255, 255, 255);
     background-color: rgb(90,110,121);
     z-index: 3; 
 }
 .text h2{
-    font-size: 2rem;
+        font-size: 2rem;
+        margin-left: 76%;
 }
 .text p{
     line-height: 1.5rem;
     width: 320px;
     padding-top: 10px;
+    margin-left: 76%;
 }
 .box{
     height: 100px;
@@ -89,21 +91,21 @@
     left: 180px;
     z-index: 3;
 }
-.benifits{
+.benifits_head{
     display: flex;
     height: 200px;
     align-items: center;
 }
-.benifits i{
+.benifits_head i{
     font-size: 5rem;
     padding-left: 150px;
     padding-right: 20px;
 }
-.benifits h2{
+.benifits_head h2{
     font-size: 2rem;
     padding-right: 800px;
 }
-.perks{
+.perks_content{
     display: flex;
     gap: 1.5rem;
     padding-left: 140px;
@@ -123,11 +125,11 @@
 .qualities h3{
     padding-left: 20px;
 }
-.statistics{
+.statistics_contents{
     display: flex;
     padding: 100px 60px 100px 140px;
 }
-.statistics img{
+.statistics_contents img{
     object-fit: cover;
     height: 500px;
     width: 500px;
@@ -175,7 +177,7 @@
     top: 9px;
     right: 8px;
 }
-.experience{
+.experience_content{
     display: flex;
     padding-left: 140px;
     padding-right: 70px;
@@ -228,7 +230,7 @@
     line-height: 1.5rem;
     padding-bottom: 10px;
 }
-.reviews{
+.review_content{
     padding-left: 140px;
     padding-right: 110px;
 }
@@ -303,30 +305,30 @@
     border-radius: 25px;
     margin-right: 25px;
 }
-.subscribe{
+.sub_content{
     padding-left: 140px;
     padding-right: 70px;
     text-align: center;
     padding-top: 100px;
     line-height: 1.5rem;
 }
-.subscribe h2{
+.sub_content h2{
     font-size: 2.5rem;
     padding-left: 350px;
     padding-right: 350px;
     line-height: 2rem;
 }
-.subscribe p{
+.sub_content p{
     padding: 25px 300px 50px 300px;
 }
 .sub_mail{
     display: flex;
     height: 60px;
-    width: 600px;
+    width: 470px;
     justify-content: center;
     align-items: center;
     background-color: rgb(255,255,255);
-    margin-left: 250px;
+    margin-left: 326px;
     position: relative;
     top: 25px;
 }
@@ -340,6 +342,9 @@
     padding: 10px 200px 10px 20px;
 }
 .footer{
+    background-color: rgb(90, 110, 121);
+}
+.footer_content{
     display: flex;
     padding-left: 140px;
     padding-right: 70px;
@@ -352,11 +357,11 @@
     padding-right: 50px;
     padding-top: 80px;
 }
-.footer h2{
+.footer_content h2{
     font-size: 1.8rem;
     padding-bottom: 20px;
 }
-.footer p{
+.footer_content p{
     margin-right: 50px;
     line-height: 1.8rem;
 }
@@ -378,7 +383,7 @@
 }
 /* MEDIA QUERIES */
 @media  screen and (min-width: 320px) and (max-width: 500px) {
-    .navbar{
+    .nav_icons{
         height: 80px;
         display: inline;
         margin-bottom: 50px;
@@ -390,7 +395,7 @@
         color: rgb(90,110,121) ;
     }
     .logo p{
-        padding-left: 40px;
+        padding-left: 105px;
         font-size: 1.5rem;
         color: rgb(90,110,121) ;
     }
@@ -416,10 +421,10 @@
     .box{
         display: none;
     }
-    .banner{
+    .banner_content{
         padding-bottom: 100px;
     }
-    .banner img{
+    .banner_content img{
         height: 250px;
         width: 350px;
         position: relative;
@@ -438,17 +443,23 @@
         padding: 10px 15px 10px 15px;
         color: whitesmoke;
     }
-    .benifits i{
+    .text p{
+        margin-left: 0%;
+    }
+    .text h2{
+        margin-left: 12%;
+    }
+    .benifits_head i{
         font-size: 4rem;
         padding-left: 40px;
         padding-right: 20px;
     }
-    .benifits h2{
+    .benifits_head h2{
         font-size: 2rem;
         padding-right: 0;
         line-height: 2.2rem;
     }
-    .perks{
+    .perks_content{
         display: inline;
         padding-left: 10px;
         padding-right: 10px;
@@ -468,11 +479,11 @@
     .qualities h3{
         padding-left: 20px;
     }
-    .statistics{
+    .statistics_contents{
         display: inline; 
         padding: 0px 25px 100px 10px;
     }
-    .statistics img{
+    .statistics_contents img{
         height: 250px;
         width: 350px;
         padding-left: 10px;
@@ -482,9 +493,9 @@
         padding-left: 10px;
     }
     .stat_text h2{
-        font-size: 1.5rem;
+        font-size: 2.4rem;
         padding-right: 0;
-        line-height: 2rem;
+        line-height: 2.6rem;
         padding-bottom: 15px;
         padding-top: 10px;
     }
@@ -500,7 +511,7 @@
         margin-top: 0;
         margin-left: 90px;
     }
-    .experience{
+    .experience_content{
         display: inline;
         padding-left: 10px;
         padding-right: 0px;
@@ -534,7 +545,7 @@
     .exp_details p{
         width: auto;
     }
-    .reviews{
+    .review_content{
         padding-left: 10px;
         padding-right: 0
     }
@@ -559,16 +570,16 @@
         width: 267px;
         margin-bottom: 20px;
     }
-    .subscribe{
+    .sub_content{
         padding-left: 10px;
         padding-right: 0px;
         padding-top: 30px;
     }
-    .subscribe h2{
+    .sub_content h2{
         padding-left: 0px;
         padding-right: 10px;
     }
-    .subscribe p{
+    .sub_content p{
         padding: 25px 6px 10px 0px;
     }
     .sub_mail{
@@ -578,13 +589,13 @@
     .sub_mail p{
         padding: 10px 20px 10px 20px;
     }
-    .footer{
+    .footer_content{
         display: inherit;
-    padding-left: 0;
-    padding-right: 0px;
-    width: max-content;
+        padding-left: 0;
+        padding-right: 0px;
+        width: max-content;
     }
-    .footer h2{
+    .footer_content h2{
         padding-right: 60px;
     }
     .footer_label{
@@ -617,7 +628,7 @@
     }
 }
 @media  screen and (min-width: 500px) and (max-width: 700px) {
-    .navbar{
+    .nav_icons{
         height: 80px;
         display: inline;
         margin-bottom: 50px;
@@ -654,10 +665,10 @@
     .box{
         display: none;
     }
-    .banner{
+    .banner_content{
         padding: 20px 0px 100px 53px;
     }
-    .banner img{
+    .banner_content img{
         height: 300px;
         width: 400px;
         position: relative;
@@ -676,16 +687,16 @@
         padding: 10px 15px 10px 15px;
         color: whitesmoke;
     }
-    .benifits i{
+    .benifits_head i{
         font-size: 4rem;
         padding-left: 20px;
         padding-right: 20px;
     }
-    .benifits h2{
+    .benifits_head h2{
         font-size: 2rem;
         padding-right: 0;
     }
-    .perks{
+    .perks_content{
         display: inline;
         padding-left: 10px;
         padding-right: 10px;
@@ -704,11 +715,11 @@
     .qualities h3{
         padding-left: 20px;
     }
-    .statistics{
+    .statistics_contents{
     display: inline; 
     padding: 0px 0px 100px 0px;
     }
-    .statistics img{
+    .statistics_contents img{
         height: 250px;
         width: 400px;
         padding-left: 60px;
@@ -736,7 +747,7 @@
         margin-top: 0;
         margin-left: 125px;
     }
-    .experience{
+    .experience_content{
         display: inline;
         padding-left: 10px;
         padding-right: 0px;
@@ -770,7 +781,7 @@
     .exp_details p{
         width: auto;
     }
-    .reviews{
+    .review_content{
         padding-left: 10px;
         padding-right: 0
     }
@@ -797,16 +808,16 @@
         margin-bottom: 20px;
         margin-left: 50px;
     }
-    .subscribe{
+    .sub_content{
         padding-left: 10px;
         padding-right: 0px;
         padding-top: 30px;
     }
-    .subscribe h2{
+    .sub_content h2{
         padding-left: 0px;
         padding-right: 0px;
     }
-    .subscribe p{
+    .sub_content p{
         padding: 25px 0px 10px 20px;
     }
     .sub_mail{
@@ -816,12 +827,12 @@
     .sub_mail p{
         padding: 10px 20px 10px 20px;
     }
-    .footer{
+    .footer_content{
         display: inherit;
         padding-left: 0;
         padding-right: 0px;
     }
-    .footer h2{
+    .footer_content h2{
         padding-right: 60px;
     }
     .footer_label{
@@ -868,11 +879,11 @@
     .icons{
         gap: 2.5rem;
      } 
-     .banner{
+     .banner_content{
         display: flex;
         padding-bottom: 10px;
     }
-     .banner img{
+     .banner_content img{
         left: 50px;
         height: 450px;
         width: 690px;
@@ -896,18 +907,18 @@
         top: 473px;
         left: 644px;
     } 
-    .benifits{
+    .benifits_head{
         display: flex;
         height: 200px;
         align-items: center;
     }
-    .benifits i{
+    .benifits_head i{
         padding-left: 58px;
     }
-    .benifits h2{
+    .benifits_head h2{
         padding-right: 191px;
     }
-    .perks{
+    .perks_content{
         padding-left: 50px;
         padding-right: 5px;
     }
@@ -917,11 +928,11 @@
     .qualities h3{
         padding-left: 12px;
     }
-    .statistics{
+    .statistics_contents{
         display: inline;
         padding: 60px 40px 100px 58px;  
     }
-    .statistics img{
+    .statistics_contents img{
         width: 670px;
         padding-left: 58px;
     }
@@ -958,7 +969,7 @@
         top: -50px;
         left: 355px;
     }
-    .experience{
+    .experience_content{
         display: inline;
         padding-left: 59px;
     }
@@ -983,7 +994,7 @@
         width: 270px;
         padding-bottom: 36px;
     }
-    .reviews{
+    .review_content{
         padding-left: 59px;
     }
     .review_arrow{
@@ -992,27 +1003,28 @@
     .profile p{
         line-height: 1.5rem ;
     }
-    .subscribe{
+    .sub_content{
         padding-left: 35px;
         padding-right: 0;
         padding-top: 44px;
     }
-    .subscribe h2{
+    .sub_content h2{
         padding-left: 0px;
         padding-right: 100px;
         text-align: center;
         line-height: 2.5rem;
     }
-    .subscribe p{
+    .sub_content p{
         padding: 25px 50px 50px 20px;
     }
     .sub_mail{
-        margin-left: 20px;
+        margin-left: 130px;
     }
     .sub_mail p{
         padding: 10px 200px 10px 20px;
     }
-    .footer{
+    .footer_content{
+        flex-wrap: wrap;
         padding-left: 59px;
         padding-right: 0px;
     }
@@ -1020,16 +1032,21 @@
         width: auto;
         padding-right: 0px;
         padding-top: 72px;
+        margin-left: 200px;
+        text-align: center;
+    }
+    .footer_content h2{
+        padding-right: 50px;
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 1350px) {
     .logo p{
         font-size: 2.5rem;
     }
-    .banner {
+    .banner_content {
         margin-bottom: 70px;
     }
-     .banner img{
+     .banner_content img{
         left: 110px;
     }
     .text{
@@ -1046,19 +1063,19 @@
         left: 870px;
         top: 529px;
     } 
-    .benifits i{
+    .benifits_head i{
         padding-left: 110px;
     }
-    .benifits h2{
+    .benifits_head h2{
         padding-right: 283px;
     }
-    .perks{
+    .perks_content{
         padding-left: 110px;
     }
-    .statistics{
+    .statistics_contents{
         padding: 60px 60px 100px 110px;
     }
-    .statistics img{
+    .statistics_contents img{
         height: 515px;
         width: 450px;
     }
@@ -1084,7 +1101,7 @@
         padding-top: 10px;
         padding-bottom: 50px;
     }
-    .experience{
+    .experience_content{
         padding-left: 110px;
         padding-bottom: 50px;
     }
@@ -1109,20 +1126,20 @@
     .exp_details{
         padding: 40px 40px 10px 15px
     }
-    .reviews{
+    .review_content{
         padding-left: 110px;
         padding-right: 60px;
     }
-    .subscribe{
+    .sub_content{
         padding-left: 110px;
         padding-right: 60px;
         padding-top: 65px;
     }
-    .subscribe h2{
+    .sub_content h2{
         padding-left: 150px;
         padding-right: 150px;
     }
-    .subscribe p{
+    .sub_content p{
         padding: 25px 200px 50px 200px;
     }
     .sub_mail{
@@ -1138,14 +1155,14 @@
     .sub_mail p{
         padding: 10px 200px 10px 20px;
     }
-    .footer{
+    .footer_content{
         padding-left: 110px;
         padding-right: 60px;
     }
     .footer_label{
         padding-right: 15px;
     }
-    .footer p{
+    .footer_content p{
         margin-right: 0px;
     }
 }
