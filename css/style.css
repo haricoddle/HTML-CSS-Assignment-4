@@ -183,53 +183,59 @@
     padding-right: 70px;
     padding-bottom: 100px;
 }
-.experience_text{
-    width: 50%;
-    padding-top: 40px;
-}
-.experience_image{
-    width: 50%;
-}
-.experience_image img{
-    object-fit: cover;
-}
-.exp_heading{
-    font-size: 2.5rem;
-    padding-right: 30px;
-}
-.exp_content{
-    display: flex;
-}
-.exp_number{
-    padding-top: 50px;
-}
-.exp_number p{
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 50px;
-    background-color: rgb(90,110,121);
-    border-radius: 50px;
-    margin-top: 5px;
-    color: white;
-}
-.exp_number span{
-    font-size: 3.2rem;
-    padding-left: 20px;
-}
 .exp_details{
-    padding: 60px 100px 10px 15px;
+    width: 50%;
 }
-.exp_details h3{
-    font-size: 1.5rem;
-    padding-bottom: 10px;
-}
-.exp_details p{
-    line-height: 1.5rem;
-    padding-bottom: 10px;
-}
+.exp_head {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    margin-bottom: 15px;
+    width: 500px;
+  }
+  .exp_timeline {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    row-gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+    color: rgb(90, 110, 121);
+  }
+  .number {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: rgb(90, 110, 121);
+    color: white;
+    text-align: center;
+    line-height: 65px;
+  }
+  .exp_timeline h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #242424;
+  }
+  .exp_timeline p {
+    color: rgb(90, 110, 121);
+    max-width: 437px;
+  }
+  .timeline {
+    height: 100%;
+    width: 2px;
+    margin: auto;
+    margin-right: 50px;
+    background-color: black;
+  }
+  .timeline:last-of-type{
+    visibility: hidden;
+  }
+  .exp_image {
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+  }
 .review_content{
     padding-left: 140px;
     padding-right: 110px;
@@ -426,7 +432,7 @@
     }
     .banner_content img{
         height: 250px;
-        width: 350px;
+        width: 306px;
         position: relative;
         left: 0;
         object-fit: cover;
@@ -437,7 +443,7 @@
         position: absolute;
         background:  rgb(90,110,121);
         top: 264px;
-        left: 30px;
+        left: 12px;
         width: 262px;
         line-height: 25px;
         padding: 10px 15px 10px 15px;
@@ -485,7 +491,7 @@
     }
     .statistics_contents img{
         height: 250px;
-        width: 350px;
+        width: 306px;
         padding-left: 10px;
     }
     .stat_text{
@@ -514,37 +520,53 @@
     .experience_content{
         display: inline;
         padding-left: 10px;
-        padding-right: 0px;
-    }
-    .experience_text{
-        width: auto;
-    }
-    .experience_image{
-        width: auto;
-    }
-    .experience_image img{
-        height: 250px;
-        width: 350px;
-        padding-left: 10px;
-    }
-    .exp_heading{
-        padding-right: 0px;
-        padding-left: 15px;
-        width: auto;
-    }
-    .exp_number p{
-        margin-left: 15px;
-    }
-    .exp_number span{
-        padding-left: 35px;
-        font-size: 4.6rem;
+        padding-right: 15px;
     }
     .exp_details{
-        padding: 60px 0px 10px 15px;
-    }
-    .exp_details p{
         width: auto;
     }
+    .exp_head {
+        font-size: 2.5rem;
+        line-height: 4rem;
+        margin-bottom: 15px;
+        width: 300px;
+        margin-left: 10px;
+      }
+      .exp_timeline {
+        margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    row-gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    color: rgb(90, 110, 121);
+      }
+      .exp_timeline h3 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #242424;
+      }
+      .exp_timeline p {
+        color: rgb(90, 110, 121);
+        max-width: 437px;
+      }
+      .timeline {
+        height: 100%;
+        width: 2px;
+        margin: auto;
+        margin-right: 32px;
+        background-color: black;
+      }
+      .exp_image {
+        object-fit: cover;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    width: 306px;
+    margin-left: 10px;
+      }
     .review_content{
         padding-left: 10px;
         padding-right: 0
@@ -563,11 +585,11 @@
         padding-top: 20px;
     }
     .reply_1{
-        width: 267px;
+        width: 230px;
         margin-bottom: 20px;
     }
     .reply_2{
-        width: 267px;
+        width: 230px;
         margin-bottom: 20px;
     }
     .sub_content{
@@ -599,7 +621,7 @@
         padding-right: 60px;
     }
     .footer_label{
-        width: 264px;
+        width: 250px;
         text-align: center;
         padding-top: 80px;
         padding-left: 78px;
@@ -687,6 +709,12 @@
         padding: 10px 15px 10px 15px;
         color: whitesmoke;
     }
+    .text h2 {
+        margin-left: 0%;
+    }
+    .text p{
+        margin-left: 0;
+    }
     .benifits_head i{
         font-size: 4rem;
         padding-left: 20px;
@@ -748,39 +776,61 @@
         margin-left: 125px;
     }
     .experience_content{
-        display: inline;
-        padding-left: 10px;
-        padding-right: 0px;
-    }
-    .experience_text{
-        width: auto;
-    }
-    .experience_image{
-        width: auto;
-    }
-    .experience_image img{
-        height: 260px;
-        width: 410px;
-        padding-left: 60px;
-    }
-    .exp_heading{
-        padding-right: 0px;
-        padding-left: 15px;
-        width: auto;
-    }
-    .exp_number p{
-        margin-left: 15px;
-    }
-    .exp_number span{
-        padding-left: 35px;
-        font-size: 3.2rem;
+        display: flex;
+        padding-left: 140px;
+        padding-right: 70px;
+        padding-bottom: 100px;
     }
     .exp_details{
-        padding: 60px 0px 10px 15px;
+        width: 50%;
     }
-    .exp_details p{
-        width: auto;
-    }
+    .exp_head {
+        font-size: 2.5rem;
+        line-height: 4rem;
+        margin-bottom: 15px;
+        width: 500px;
+      }
+      .exp_timeline {
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 30px;
+        row-gap: 20px;
+        align-items: center;
+        margin-bottom: 30px;
+        color: rgb(90, 110, 121);
+      }
+      .number {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        background-color: rgb(90, 110, 121);
+        color: white;
+        text-align: center;
+        line-height: 65px;
+      }
+      .exp_timeline h3 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #242424;
+      }
+      .exp_timeline p {
+        color: rgb(90, 110, 121);
+        max-width: 437px;
+      }
+      .timeline {
+        height: 100%;
+        width: 2px;
+        margin: auto;
+        margin-right: 50px;
+        background-color: black;
+      }
+      .exp_image {
+        object-fit: cover;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+      }
     .review_content{
         padding-left: 10px;
         padding-right: 0
@@ -821,8 +871,8 @@
         padding: 25px 0px 10px 20px;
     }
     .sub_mail{
-        width: 450px;
-        margin-left: 15px;
+        width: 280px;
+        margin-left: 105px;
     }
     .sub_mail p{
         padding: 10px 20px 10px 20px;
@@ -892,10 +942,14 @@
         padding-left: 66px;
         width: 190px; 
     }
+    .text h2{
+        margin-left: 0;
+    }
     .text p{
         line-height: 1.5rem;
         width: 320px;
         padding-top: 10px;
+        margin-left: 0;
     }
     .box{
         position: absolute;
@@ -971,29 +1025,64 @@
     }
     .experience_content{
         display: inline;
-        padding-left: 59px;
+        padding-left: 140px;
+        padding-right: 70px;
+        padding-bottom: 100px;
     }
-    .experience_text{
-        width: 369px;
-        padding-left: 100px;
+    .exp_details{
+        width: 50%;
     }
-    .experience_image{
-        width: 0;
+    .exp_head {
+        font-size: 2.5rem;
+    line-height: 4rem;
+    margin-bottom: 15px;
+    width: 500px;
+    margin-left: 58px;
     }
-    .experience_image img{
-        padding-left: 59px;
-        height: 380px;
-        width: 600px;
-        border-radius: 10px;
-    }
-    .exp_number span{
-        font-size: 6rem;
-        padding-left: 17px;
-    }
-    .exp_details p{
-        width: 270px;
-        padding-bottom: 36px;
-    }
+
+    .exp_timeline {
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 30px;
+        row-gap: 20px;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-left: 58px;
+        color: rgb(90, 110, 121);
+      }
+      .number {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        background-color: rgb(90, 110, 121);
+        color: white;
+        text-align: center;
+        line-height: 65px;
+      }
+      .exp_timeline h3 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #242424;
+      }
+      .exp_timeline p {
+        color: rgb(90, 110, 121);
+        max-width: 437px;
+      }
+      .timeline {
+        height: 100%;
+    width: 2px;
+    margin: auto;
+    margin-right: 34px;
+    background-color: black;
+      }
+      .exp_image {
+        object-fit: cover;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        margin-left: 58px;
+      }
     .review_content{
         padding-left: 59px;
     }
@@ -1032,11 +1121,14 @@
         width: auto;
         padding-right: 0px;
         padding-top: 72px;
-        margin-left: 200px;
+        /* margin-left: 200px; */
         text-align: center;
     }
     .footer_content h2{
         padding-right: 50px;
+    }
+    .footer_content p {
+        margin-right: 40px
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 1350px) {
@@ -1050,13 +1142,19 @@
         left: 110px;
     }
     .text{
-        top: 210px;
-        width: 215px;
+        top: 200px;
         padding: 50px 100px 50px 110px;
     }
+    .text h2{
+        margin-left: 81%;
+    }
+    .text p {
+        margin-left: 81%;
+    }
     .box{
-        top: 429px;
-        right: 770px;
+        position: absolute;
+        top: 500px;
+        left: 86px;
     }
     .arrow{
         position: absolute;
@@ -1102,30 +1200,63 @@
         padding-bottom: 50px;
     }
     .experience_content{
+        display: flex;
         padding-left: 110px;
-        padding-bottom: 50px;
-    }
-    .experience_text{
-        width: 40%;
-        padding-top: 10px;
-    }
-    .experience_image img{
-        height: 580px;
-         width: 510px;
-    }
-    .exp_heading{
-        font-size: 2.2rem;
-    }
-    .exp_number{
-        padding-top: 25px;
-    }
-    .exp_number span{
-        font-size: 5rem;
-        padding-left: 17px;
+        padding-right: 70px;
+        padding-bottom: 100px;
     }
     .exp_details{
-        padding: 40px 40px 10px 15px
+        width: 50%;
+        padding-right: 20px;
     }
+    .exp_head {
+        font-size: 2.5rem;
+        line-height: 4rem;
+        margin-bottom: 15px;
+        width: 440px;
+      }
+      .exp_timeline {
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 30px;
+        row-gap: 20px;
+        align-items: center;
+        margin-bottom: 30px;
+        color: rgb(90, 110, 121);
+      }
+      .number {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        background-color: rgb(90, 110, 121);
+        color: white;
+        text-align: center;
+        line-height: 65px;
+      }
+      .exp_timeline h3 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #242424;
+      }
+      .exp_timeline p {
+        color: rgb(90, 110, 121);
+        max-width: 437px;
+      }
+      .timeline {
+        height: 100%;
+        width: 2px;
+        margin: auto;
+        margin-right: 33px;
+        background-color: black;
+      }
+      .exp_image {
+        object-fit: cover;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        width: 410px;
+      }
     .review_content{
         padding-left: 110px;
         padding-right: 60px;
