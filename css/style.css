@@ -230,6 +230,9 @@
   .timeline:last-of-type{
     visibility: hidden;
   }
+  .experience_img{
+    width: 50%;
+  }
   .exp_image {
     object-fit: cover;
     border-radius: 5px;
@@ -334,7 +337,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(255,255,255);
-    margin-left: 326px;
+    margin-left: 390px;
     position: relative;
     top: 25px;
 }
@@ -437,7 +440,7 @@
         position: absolute;
         background:  rgb(90,110,121);
         top: 264px;
-        left: 12px;
+        left: 15px;
         width: 262px;
         line-height: 25px;
         padding: 10px 15px 10px 15px;
