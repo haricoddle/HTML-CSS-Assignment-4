@@ -1,43 +1,43 @@
 *{
     margin: 0;
-}
-.container{
+ }
+ .container{
     max-width: 1350px;
     margin: auto ; 
     background-color: rgb(253, 254, 255);
-}
+ }
  .nav_icons{
     height: 80px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-.logo{
+ }
+ .logo{
     padding-right:100px;
-}
-.logo p{
+ }
+ .logo p{
     font-size: 2rem;
     color: rgb(90,110,121) ;
-}
-.links{
+ }
+ .links{
     margin-right: 100px;
     display: flex;
     gap: 4rem;
-}
-.links a{
+ }
+ .links a{
     font-size: 1.4rem;
     text-decoration: none;
     color: black;
-}
-.icons{
+ }
+ .icons{
     display: flex;
     gap: 3rem;
     font-size: 1.4rem;
-} 
-.banner_content{
+ } 
+ .banner_content{
     display: flex;
-}
-.banner_content img{
+ }
+ .banner_content img{
     position: relative;
     left: 380px;
     object-fit: cover;
@@ -45,8 +45,8 @@
     width: 850px;
     border-radius: 5px;
     z-index: 2;
-}
-.text{
+ }
+ .text{
     position: absolute;
     top: 200px;
     right: 51%;
@@ -55,18 +55,18 @@
     color: rgb(255, 255, 255);
     background-color: rgb(90,110,121);
     z-index: 3; 
-}
-.text h2{
+ }
+ .text h2{
         font-size: 2rem;
         margin-left: 76%;
-}
-.text p{
+ }
+ .text p{
     line-height: 1.5rem;
     width: 320px;
     padding-top: 10px;
     margin-left: 76%;
-}
-.box{
+ }
+ .box{
     height: 100px;
     width: 100px;
     border: 2px solid rgb(149,154,158);
@@ -75,8 +75,8 @@
     top: 420px;
     right: 500px;
     z-index: 1;
-}
-.arrow{
+ }
+ .arrow{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,243 +89,250 @@
     top: 440px;
     left: 180px;
     z-index: 3;
-}
-.benifits_head{
+ }
+ .benifits_head{
     display: flex;
     height: 200px;
     align-items: center;
-}
-.benifits_head i{
+ }
+ .benifits_head i{
     font-size: 5rem;
     padding-left: 150px;
     padding-right: 20px;
-}
-.benifits_head h2{
+ }
+ .benifits_head h2{
     font-size: 2rem;
     padding-right: 800px;
-}
-.perks_content{
+ }
+ .perks_content{
     display: flex;
     gap: 1.5rem;
     padding-left: 140px;
     padding-right: 60px;
-}
-.qualities{
+ }
+ .qualities{
     display: flex;  
-}
-.qualities img{
+ }
+ .qualities img{
     height: 64px;
     width: 64px;
-}
-.qualities p{
+ }
+ .qualities p{
     padding-inline: 20px;
     line-height: 1.5rem;
-}
-.qualities h3{
+ }
+ .qualities h3{
     padding-left: 20px;
-}
-.statistics_contents{
+ }
+ .statistics_contents{
     display: flex;
     padding: 100px 60px 100px 140px;
-}
-.statistics_contents img{
+ }
+ .statistics_contents img{
     object-fit: cover;
     height: 500px;
     width: 500px;
     border-radius: 4px ;
-}
-.stat_image{
+ }
+ .stat_image{
     width: 50%;
-}
-.stat_text{
+ }
+ .stat_text{
     width: 50%;
-}
-.stat_text h2{
+ }
+ .stat_text h2{
     font-size: 2.5rem;
     padding-right: 250px;
     line-height: 3rem;
     padding-bottom: 15px;
     padding-top: 10px;
-}
-.stat_text p{
+ }
+ .stat_text p{
     padding-right: 10px;
     line-height: 1.5rem;
-}
-.stat_numbers{
+ }
+ .stat_numbers{
     display: flex;
     align-items: center;
     gap: 5rem;
     padding-top: 30px;
-}
-.stat_numbers h3{
+ }
+ .stat_numbers h3{
     font-size: 3.2rem;
     color: rgb(90,110,121);
-}
-.stat_numbers p{
+ }
+ .stat_numbers p{
     padding-top: 10px;
     padding-bottom: 50px;
-}
-.stat_text button{
+ }
+ .stat_text button{
     border: 2px solid black;
     margin-top: 25px;
     padding: 15px 25px 15px 25px;
-}
-.stat_text span{
+ }
+ .stat_text span{
    font-size: 3rem;
    position: relative;
    top: 9px;
    right: 8px;
-}
-.experience_content{
-   display: flex;
-   padding-left: 140px;
-   padding-right: 70px;
-   padding-bottom: 100px;
-}
-.exp_details{
-   width: 50%;
-}
-.exp_head {
-   font-size: 2.5rem;
-   line-height: 4rem;
-   margin-bottom: 15px;
-   width: 500px;
-  }
-.exp_timeline {
-   margin-top: 25px;
-   display: grid;
-   grid-template-columns: 80px 450px;
-   column-gap: 30px;
-   row-gap: 20px;
-   align-items: center;
-}
-.number {
-   width: 70px;
-   height: 70px;
-   border-radius: 35px;
-   background-color: rgb(90, 110, 121);
-   color: white;
-   text-align: center;
-   line-height: 4rem;
-   margin: auto;
-}
-.exp_timeline h3 {
-   font-size: 25px;
-   font-weight: 600;
-}
-.exp_timeline p {
-   max-width: 400px;
-}
-.timeline {
-   height: 100%;
-   width: 2px;
-   margin: auto;
-   background-color: black;
-}
-  .timeline:last-of-type{
-    visibility: hidden;
-}
-  .experience_img{
+ }
+ .experience_content{
+    display: flex;
+    padding-left: 140px;
+    padding-right: 70px;
+    padding-bottom: 100px;
+ } 
+  .exp_details{
     width: 50%;
-}
-.exp_image {
-    object-fit: cover;
-    border-radius: 5px;
-    margin-top: 15px;
-    margin-bottom: 35px;
-}
-.review_content{
+ }
+ .exp_head {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    margin-bottom: 15px;
+    width: 500px;
+   }
+   .div1{
+     display: flex;
+     align-items: center;
+     margin-block: 10px;
+   }
+   .div2{
+     position: relative;
+   } 
+   .div2 p{
+    margin-left: 100px;
+    width: 400px;
+ 
+   }
+  .number {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: rgb(90, 110, 121);
+    color: white;
+    text-align: center;
+    line-height: 4rem;
+    margin: 0;
+ } 
+  .exp_timeline h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    margin-left: 30px;
+ }
+ .vertical_bar {
+    position: absolute;
+    left: 34px;
+    top: 0;
+    width: 3px; 
+    background-color: black; 
+    height: 100%; 
+  }
+ 
+  .div2:last-child .vertical_bar{
+     visibility: hidden;
+ }    
+    .experience_img{
+     width: 50%;
+ }
+ .exp_image {
+     object-fit: cover;
+     border-radius: 5px;
+     margin-top: 15px;
+     margin-bottom: 35px;
+ } 
+ .review_content{
     padding-left: 140px;
     padding-right: 110px;
-}
-.review_heading{
+ }
+ .review_heading{
     display: flex;
     padding-bottom: 50px;
     justify-content: space-between;
-}
-.review_heading h2{
+ }
+ .review_heading h2{
     font-size: 2.5rem;
-}
-.review_arrow{
+ }
+ .review_arrow{
     display: flex;
     gap: 2rem;
     font-size: 2rem;
-}
-.fa-long-arrow-left{
+ }
+ .fa-long-arrow-left{
     color: grey;
-}
-.replys{
+ }
+ .replys{
     display: flex;
     gap: 2rem;
-}
-.replys i{
+ }
+ .replys i{
     font-size: 5rem;
     padding-top: 20px;
-}
-.reply_1{
+ }
+ .reply_1{
     width: 50%;
     background-color: rgb(90,110,121);
     color: white;
     border-radius: 5px;
     padding-left: 35px;
     padding-right: 35px;
-}
-.reply_2{
+ }
+ .reply_2{
     width: 50%;
     background-color: rgb(90,110,121);
     color: white;
     border-radius: 5px;
     padding-left: 35px;
     padding-right: 35px;
-}
-.reply_1 h2{
+ }
+ .reply_1 h2{
     font-size: 2rem;
     padding-top: 15px;
     padding-bottom: 15px;
-}
-.reply_1 p{
+ }
+ .reply_1 p{
     line-height: 1.2rem;
     padding-bottom: 25px;
-}
-.reply_2 h2{
+ }
+ .reply_2 h2{
     font-size: 2rem;
     padding-top: 15px;
     padding-bottom: 15px;
-}
-.reply_2 p{
+ }
+ .reply_2 p{
     line-height: 1.2rem;
     padding-bottom: 25px;
-}
-.profile{
+ }
+ .profile{
     display: flex;
-}
-.profile p{
+ }
+ .profile p{
     line-height: 1.5rem ;
-}
-.profile_img{
+ }
+ .profile_img{
     object-fit: cover;
     height: 50px;
     width: 50px;
     border-radius: 25px;
     margin-right: 25px;
-}
-.sub_content{
+ }
+ .sub_content{
     padding-left: 140px;
     padding-right: 70px;
     text-align: center;
     padding-top: 100px;
     line-height: 1.5rem;
-}
-.sub_content h2{
+ }
+ .sub_content h2{
     font-size: 2.5rem;
     padding-left: 350px;
     padding-right: 350px;
     line-height: 2rem;
-}
-.sub_content p{
+ }
+ .sub_content p{
     padding: 25px 300px 50px 300px;
-}
-.sub_mail{
+ }
+ .sub_mail{
     display: flex;
     height: 60px;
     width: 470px;
@@ -335,58 +342,58 @@
     margin-left: 390px;
     position: relative;
     top: 25px;
-}
-.sub_mail button{
+ }
+ .sub_mail button{
     border: none;
     background-color:rgb(90,110,121) ;
     color: white;
     height: 50px;
-}
-.sub_mail p{
+ }
+ .sub_mail p{
     padding: 10px 200px 10px 20px;
-}
-.footer{
+ }
+ .footer{
     background-color: rgb(90, 110, 121);
-}
-.footer_content{
+ }
+ .footer_content{
     display: flex;
     padding-left: 140px;
     padding-right: 70px;
     padding-bottom: 80px ;
     background-color: rgb(90,110,121);
     color: white;
-}
-.footer_label{
+ }
+ .footer_label{
     width: 30%;
     padding-right: 50px;
     padding-top: 80px;
-}
-.footer_content h2{
+ }
+ .footer_content h2{
     font-size: 1.8rem;
     padding-bottom: 20px;
-}
-.footer_content p{
+ }
+ .footer_content p{
     margin-right: 50px;
     line-height: 1.8rem;
-}
-.footer_more{
+ }
+ .footer_more{
     display: flex;
     padding-top: 80px;
     justify-content: center;
     padding-left: 50px;
     gap: 1.5rem;
-}
-.footer_more h4{
+ }
+ .footer_more h4{
     font-size: 1.2rem;
     padding-bottom: 20px;
-}
-.social{
+ }
+ .social{
     display: flex;
     padding-top: 20px;
     gap: 1.2rem;
-}
-/* MEDIA QUERIES */
-@media  screen and (min-width: 320px) and (max-width: 500px) {
+ }
+ /* MEDIA QUERIES */
+ @media  screen and (min-width: 320px) and (max-width: 500px) {
     .nav_icons{
         display: inline;
         margin-bottom: 50px;
@@ -519,16 +526,13 @@
         margin-left: 10px;
     }
     .number{
-        margin: auto;
+        margin: 0;
     }
     .exp_timeline {
         margin-left: 10px;
     }
-    .timeline {
-        height: 100%;
-        width: 2px;
-        margin: auto;
-        background-color: black;
+    .div2 p{
+        width: 195px;
     }
     .exp_image {
         width: 306px;
@@ -611,8 +615,8 @@
         padding-top: 20px;
         gap: 1.2rem;
     }
-}
-@media  screen and (min-width: 500px) and (max-width: 700px) {
+ }
+ @media  screen and (min-width: 500px) and (max-width: 700px) {
     .nav_icons{
         height: 80px;
         display: inline;
@@ -740,50 +744,20 @@
     }
     .experience_content{
         display: flex;
-        padding-left: 140px;
-        padding-right: 70px;
-        padding-bottom: 100px;
-    }
-    .exp_details{
-        width: 50%;
-    }
-    .exp_head {
-        font-size: 2.5rem;
-        line-height: 4rem;
-        margin-bottom: 15px;
-        width: 500px;
-      }
-      .exp_timeline {
-        margin-top: 25px;
-        display: grid;
-        grid-template-columns: auto auto;
-        column-gap: 30px;
-        row-gap: 20px;
-        align-items: center;
-        margin-bottom: 30px;
-        color: rgb(90, 110, 121);
-      }
-      .exp_timeline h3 {
-        font-size: 25px;
-        font-weight: 600;
-        color: #242424;
-      }
-      .exp_timeline p {
-        color: rgb(90, 110, 121);
-        max-width: 437px;
-      }
-      .timeline {
-        height: 100%;
-        width: 2px;
-        margin: auto;
-        background-color: black;
-      }
-      .exp_image {
-        object-fit: cover;
-        border-radius: 5px;
-        margin-top: 15px;
-        margin-bottom: 35px;
-      }
+        flex-direction: column;
+        padding-left: 15px;
+        padding-bottom: 20px;
+    } 
+    .div2 p{
+       width: 361px;
+    }  
+    .experience_img{
+         width: 50%;
+     }
+     .exp_image {
+        width: 450px;
+         margin-bottom: 0px;
+     } 
     .review_content{
         padding-left: 10px;
         padding-right: 0
@@ -864,8 +838,8 @@
         padding-top: 20px;
         gap: 1.2rem;
     }
-}
-@media screen and (min-width: 700px) and (max-width: 1023px ) {
+ }
+ @media screen and (min-width: 700px) and (max-width: 1023px ) {
     .logo{
         padding-right: 50px;
     }
@@ -928,6 +902,7 @@
     .perks_content{
         padding-left: 50px;
         padding-right: 5px;
+        margin-bottom: 30px;
     }
     .qualities p{
         padding-inline: 20px;
@@ -954,7 +929,7 @@
         padding: 10px 0px 15px 100px;
     }
     .text_p{
-        width: 260px;
+        width: 600px;
         padding-left: 100px;
     }
     .stat_numbers{
@@ -977,19 +952,21 @@
         left: 355px;
     }
     .experience_content{
-        display: inline;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-bottom: 40px;
     }
     .exp_head {
         margin-left: 58px;
     }
     .number{
-        margin: auto;
+        margin: 0;
     }
     .exp_timeline {
         margin-left: 58px;
       }
     .exp_image {
-        margin-left: 58px;
+        margin-left: 100px;
     }
     .review_content{
         padding-left: 59px;
@@ -1038,8 +1015,8 @@
     .footer_content p {
         margin-right: 40px
     }
-}
-@media screen and (min-width: 1024px) and (max-width: 1350px) {
+ }
+ @media screen and (min-width: 1024px) and (max-width: 1350px) {
     .logo p{
         font-size: 2.5rem;
     }
@@ -1117,6 +1094,7 @@
         width: 440px;
     }
     .exp_image {
+        height: 580px;
         width: 410px;
     }
     .review_content{
@@ -1158,4 +1136,4 @@
     .footer_content p{
         margin-right: 0px;
     }
-}
+ }
