@@ -43,7 +43,6 @@
     object-fit: cover;
     height: 500px;
     width: 850px;
-    
     border-radius: 5px;
     z-index: 2;
 }
@@ -172,73 +171,72 @@
     padding: 15px 25px 15px 25px;
 }
 .stat_text span{
-    font-size: 3rem;
-    position: relative;
-    top: 9px;
-    right: 8px;
+   font-size: 3rem;
+   position: relative;
+   top: 9px;
+   right: 8px;
 }
 .experience_content{
-    display: flex;
-    padding-left: 140px;
-    padding-right: 70px;
-    padding-bottom: 100px;
+   display: flex;
+   padding-left: 140px;
+   padding-right: 70px;
+   padding-bottom: 100px;
 }
 .exp_details{
-    width: 50%;
+   width: 50%;
 }
 .exp_head {
-    font-size: 2.5rem;
-    line-height: 4rem;
-    margin-bottom: 15px;
-    width: 500px;
+   font-size: 2.5rem;
+   line-height: 4rem;
+   margin-bottom: 15px;
+   width: 500px;
   }
-  .exp_timeline {
-    margin-top: 25px;
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 30px;
-    row-gap: 20px;
-    align-items: center;
-    margin-bottom: 30px;
-    color: rgb(90, 110, 121);
-  }
-  .number {
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    background-color: rgb(90, 110, 121);
-    color: white;
-    text-align: center;
-    line-height: 65px;
-    margin: auto;
-  }
-  .exp_timeline h3 {
-    font-size: 25px;
-    font-weight: 600;
-    color: #242424;
-  }
-  .exp_timeline p {
-    color: rgb(90, 110, 121);
-    max-width: 437px;
-  }
-  .timeline {
-    height: 100%;
-    width: 2px;
-    margin: auto;
-    background-color: black;
-  }
+.exp_timeline {
+   margin-top: 25px;
+   display: grid;
+   grid-template-columns: auto auto;
+   column-gap: 30px;
+   row-gap: 20px;
+   align-items: center;
+   margin-bottom: 30px;
+   color: rgb(90, 110, 121);
+}
+.number {
+   width: 70px;
+   height: 70px;
+   border-radius: 35px;
+   background-color: rgb(90, 110, 121);
+   color: white;
+   text-align: center;
+   line-height: 4rem;
+   margin: auto;
+}
+.exp_timeline h3 {
+   font-size: 25px;
+   font-weight: 600;
+   color: #242424;
+}
+.exp_timeline p {
+   max-width: 400px;
+}
+.timeline {
+   height: 100%;
+   width: 2px;
+   margin: auto;
+   background-color: black;
+}
   .timeline:last-of-type{
     visibility: hidden;
-  }
+}
   .experience_img{
     width: 50%;
-  }
-  .exp_image {
+}
+.exp_image {
     object-fit: cover;
     border-radius: 5px;
     margin-top: 15px;
     margin-bottom: 35px;
-  }
+}
 .review_content{
     padding-left: 140px;
     padding-right: 110px;
@@ -573,7 +571,7 @@
         padding: 25px 6px 10px 0px;
     }
     .sub_mail{
-        width: auto;
+        width: 290px;
         margin-left: 20px;
     }
     .sub_mail p{
@@ -767,16 +765,6 @@
         align-items: center;
         margin-bottom: 30px;
         color: rgb(90, 110, 121);
-      }
-      .number {
-        width: 65px;
-        height: 65px;
-        border-radius: 50%;
-        background-color: rgb(90, 110, 121);
-        color: white;
-        text-align: center;
-        line-height: 65px;
-        margin: auto;
       }
       .exp_timeline h3 {
         font-size: 25px;
