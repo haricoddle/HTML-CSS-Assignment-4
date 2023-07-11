@@ -201,7 +201,7 @@
    } 
    .exp_info_2 p{
     margin-left: 100px;
-    width: 400px;
+    width: auto;
  
    }
   .number {
@@ -484,7 +484,7 @@
     }
     .statistics_contents{
         flex-direction: column;
-        padding: 0px 25px 100px 10px;
+        padding: 0px 25px 35px 10px;
     }
     .statistics_contents img{
         height: 250px;
@@ -496,7 +496,7 @@
         padding-left: 10px;
     }
     .stat_text h2{
-        font-size: 2.4rem;
+        font-size: 2.2rem;
         padding-right: 0;
         line-height: 2.6rem;
         padding-bottom: 15px;
@@ -525,6 +525,7 @@
     .exp_head {
         width: 300px;
         margin-left: 10px;
+        font-size: 2.2rem;
     }
     .number{
         margin: 0;
@@ -543,9 +544,6 @@
         padding-left: 10px;
         padding-right: 0
     }
-    .review_heading h2{
-        padding-top: 40px;
-    }
     .review_arrow{
         display: none;
     }
@@ -553,12 +551,14 @@
         display: inline;
     }
     .reply_1{
-        width: 230px;
+        width: auto;
         margin-bottom: 20px;
+        margin-right: 10px;
     }
     .reply_2{
-        width: 230px;
+        width: auto;
         margin-bottom: 20px;
+        margin-right: 10px;
     }
     .sub_content{
         padding-left: 10px;
@@ -752,7 +752,7 @@
         padding-left: 15px;
         padding-bottom: 20px;
     } 
-    .div2 p{
+    .exp_info_2 p{
        width: 361px;
     }  
     .experience_img{
@@ -917,10 +917,10 @@
     }
     .statistics_contents{
         flex-direction: column;
-        padding: 60px 40px 100px 58px;  
+        padding: 60px 40px 10px 58px;  
     }
     .statistics_contents img{
-        width: 670px;
+        width: 600px;
         padding-left: 58px;
     }
     .stat_image{
@@ -931,14 +931,10 @@
     }
     .stat_text h2{
         width: 328px;
-        padding: 10px 0px 15px 100px;
+        padding: 10px 0px 15px 0px;
     }
     .text_p{
         width: 600px;
-        padding-left: 100px;
-    }
-    .stat_numbers{
-        padding-left: 100px;
     }
     .stat_numbers h3{
         font-size: 3.2rem;
@@ -969,7 +965,11 @@
     }
     .exp_timeline {
         margin-left: 58px;
-      }
+    }
+    .exp_info_2 p {
+        margin-left: 100px;
+        width: 500px;
+    }
     .exp_image {
         margin-left: 100px;
     }
