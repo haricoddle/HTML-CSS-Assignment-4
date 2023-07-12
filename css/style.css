@@ -5,6 +5,7 @@
     max-width: 1350px;
     margin: auto ; 
     background-color: rgb(255, 255, 255);
+    margin-block: -1px;
  }
  .nav_icons{
     height: 80px;
@@ -95,7 +96,7 @@
     height: 200px;
     align-items: center;
  }
- .benifits_head i{
+ .benifits_head span{
     font-size: 5rem;
     padding-left: 150px;
     padding-right: 20px;
@@ -450,6 +451,7 @@
     }
     .text p{
         margin-left: 0%;
+        width: 274px;
     }
     .text h2{
         margin-left: 12%;
@@ -488,7 +490,7 @@
     }
     .statistics_contents img{
         height: 250px;
-        width: 306px;
+        width: 280px;
         padding-left: 10px;
     }
     .stat_text{
@@ -537,7 +539,7 @@
         width: auto;
     }
     .exp_image {
-        width: 306px;
+        width: 280px;
         margin-left: 10px;
     }
     .review_content{
@@ -557,7 +559,6 @@
     }
     .reply_2{
         width: auto;
-        margin-bottom: 20px;
         margin-right: 10px;
     }
     .sub_content{
@@ -573,11 +574,11 @@
         padding: 25px 6px 10px 0px;
     }
     .sub_mail{
-        width: 290px;
+        width: 300px;
         margin: auto;
     }
     .sub_mail p{
-        padding: 10px 20px 10px 20px;
+        padding: 10px 20px 10px 14px;
     }
     .footer_content{
         flex-direction: column;
@@ -589,11 +590,11 @@
         padding-right: 60px;
     }
     .footer_label{
-        width: 250px;
+        width: 240px;
         text-align: center;
         padding-top: 80px;
-        padding-left: 78px;
-        padding-right: 23px;
+        padding-left: 65px;
+        padding-right: 0px;
     }
     .footer_label p{
         padding-left: 0px;
@@ -907,7 +908,6 @@
     .perks_content{
         padding-left: 50px;
         padding-right: 5px;
-        margin-bottom: 30px;
     }
     .qualities p{
         padding-inline: 20px;
@@ -949,8 +949,8 @@
         width: 130px;
     }
     .stat_text span{
-        top: -50px;
-        left: 355px;
+        top: -54px;
+        left: 357px;
     }
     .experience_content{
         flex-direction: column;
