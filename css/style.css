@@ -4,7 +4,7 @@
  }
  .container{
     max-width: 1350px;
-    margin: auto ; 
+    margin: auto; 
     background-color: rgb(255, 255, 255);
     margin-block: -1px;
  }
@@ -52,9 +52,9 @@
  .text{
     position: absolute;
     top: 200px;
-    right: 51%;
+    right: 60%;
     width: 100%;
-    padding: 50px 150px; 
+    padding: 50px 24px;
     color: rgb(255, 255, 255);
     background-color: rgb(90,110,121);
     z-index: 3; 
@@ -142,6 +142,7 @@
  }
  .stat_text{
     width: 50%;
+    padding-left: 76px;
  }
  .text_p{
     width: 527px;
@@ -342,14 +343,14 @@
  .sub_mail{
     display: flex;
     height: 60px;
-    width: 470px;
+    width: 70%;
     justify-content: center;
     align-items: center;
     background-color: rgb(255,255,255);
     margin: auto;
     position: relative;
     top: 25px;
-    box-shadow: 2px 2px 2px grey;
+    box-shadow: 0px 0px 4px grey;
  }
  .sub_mail button{
     border: none;
@@ -359,7 +360,7 @@
     padding-inline: 38px;
  }
  .sub_mail p{
-    padding: 10px 145px 10px 20px;
+    padding: 10px 59% 10px 20px;
  }
  .footer{
     background-color: rgb(90, 110, 121);
@@ -433,20 +434,24 @@
         display: none;
     }
     .banner_content{
-        padding-bottom: 100px;
+        padding-bottom: 145px;
+    }
+    .banner_image{
+        width: 100%;
     }
     .banner_content img{
         height: 250px;
-        width: 306px;
+        width: 95%;
         left: 0;
         padding-left: 9px;
     }        
     .text{
-        top: 264px;
-        left: 15px;
-        width: 262px;
+        top: 328px;
+        left: 9px;
+        width: 86%;
         line-height: 25px;
         padding: 10px 15px 10px 15px;
+        border-radius: 5px;
     }
     .text p{
         margin-left: 0%;
@@ -477,9 +482,12 @@
         flex-direction: column;
         padding: 0px 25px 35px 10px;
     }
+    .stat_image{
+        width: 100%;
+    }
     .statistics_contents img{
         height: 250px;
-        width: 280px;
+        width: 96%;
         padding-left: 10px;
     }
     .stat_text{
@@ -517,7 +525,8 @@
     .exp_head {
         width: 298px;
         margin-left: 5px;
-        font-size: 2.2rem;
+        font-size: 2rem;
+        line-height: 3rem;
     }
     .number{
         margin: 0;
@@ -528,8 +537,11 @@
     .exp_info_2 p {
         width: auto;
     }
+    .experience_img{
+        width: 100%;
+    }
     .exp_image {
-        width: 280px;
+        width: 96%;
         height: 280px;
         margin-left: 10px;
         padding-left: 5px;
@@ -537,6 +549,9 @@
     .review_content{
         padding-left: 10px;
         padding-right: 0
+    }
+    .review_heading h2{
+        font-size: 2.2rem;
     }
     .review_arrow{
         display: none;
@@ -561,6 +576,7 @@
     .sub_content h2{
         padding-left: 0px;
         padding-right: 10px;
+        font-size: 2.2rem;
     }
     .sub_content p{
         padding: 25px 6px 10px 0px;
@@ -587,9 +603,7 @@
     }
     .footer_label{
         width: 240px;
-        text-align: center;
         padding-top: 80px;
-        padding-left: 65px;
         padding-right: 0px;
     }
     .footer_label p{
@@ -597,10 +611,8 @@
     }
     .footer_more{
         flex-direction: column;
-        text-align: center;
-        margin: auto;
         padding-top: 25px;
-        padding-left: 10px;
+        padding-left: 0;
     }
     .footer_more p{
         margin-right: 0px;
@@ -656,11 +668,14 @@
         display: none;
     }
     .banner_content{
-        padding: 20px 0px 100px 53px;
+        padding: 20px 0px 100px 20px;
+    }
+    .banner_image{
+        width: 100%;
     }
     .banner_content img{
         height: 300px;
-        width: 400px;
+        width: 96%;
         position: relative;
         left: 0;
         object-fit: cover;
@@ -668,20 +683,19 @@
         padding-left: 9px;
     }        
     .text{
-        position: absolute;
-        background:  rgb(90,110,121);
-        top: 340px;
-        left: 20px;
-        width: 262px;
-        line-height: 25px;
-        padding: 10px 15px 10px 15px;
-        color: whitesmoke;
+        top: 390px;
+        left: 29px;
+        width: 79%;
+        padding: 10px 15px 10px 13px;
+        border-radius: 10px;
+        margin-top: 5px;
     }
     .text h2 {
         margin-left: 0%;
     }
     .text p{
         margin-left: 0;
+        width: 440px;
     }
     .benifits_head span{
         font-size: 4rem;
@@ -693,8 +707,8 @@
         padding-right: 0;
     }
     .perks_content{
-        display: inline;
-        padding-left: 10px;
+        flex-direction: column;
+        padding-left: 20px;
         padding-right: 10px;
     }
     .qualities{
@@ -712,20 +726,23 @@
         padding-left: 20px;
     }
     .statistics_contents{
-    display: inline; 
-    padding: 0px 0px 100px 0px;
+        flex-direction: column; 
+        padding: 0px 0px 20px 20px;
+    }
+    .stat_image{
+        width: 100%;
     }
     .statistics_contents img{
         height: 250px;
-        width: 400px;
-        padding-left: 60px;
+        width: 89%;
+        padding-left: 20px;
     }
     .stat_text{
         width: auto;
-        padding-left: 10px;
+        padding-left: 0px;
     }
     .text_p{
-        width: 480px;
+        width: 440px;
     }
     .stat_text h2{
         font-size: 1.5rem;
@@ -749,48 +766,52 @@
     .experience_content{
         display: flex;
         flex-direction: column;
-        padding-left: 15px;
+        padding-left: 20px;
         padding-bottom: 20px;
     } 
     .exp_info_2 p{
        width: 361px;
     }  
     .experience_img{
-         width: 50%;
+         width: 100%;
      }
      .exp_image {
-        width: 420px;
+        width: 96%;
         margin-bottom: 0px;
+        padding-left: 20px;
      } 
     .exp_head{
-        width: 490px;
+        width: 470px;
+        line-height: 3rem;
+        padding-top: 20px;
     }
     .review_content{
         padding-left: 10px;
-        padding-right: 0
+        padding-right: 0;
     }
     .review_heading h2{
-        padding: 40px 0px 0px 20px;
+        padding: 40px 0px 0px 30px;
     }
     .review_arrow{
         display: none;
     }
     .replys{
-        display: inline;
+        width: 100%;
+        flex-direction: column;
     }
     .replys i{
         font-size: 5rem;
         padding-top: 20px;
     }
     .reply_1{
-        width: 350px;
-        margin-bottom: 20px;
-        margin-left: 50px;
+        width: 75%;
+        margin: auto;
+        padding-bottom: 25px;
     }
     .reply_2{
-        width: 350px;
-        margin-bottom: 20px;
-        margin-left: 50px;
+        width: 75%;
+        margin: auto;
+        padding-bottom: 25px;
     }
     .sub_content{
         padding-left: 10px;
@@ -805,11 +826,11 @@
         padding: 25px 0px 10px 20px;
     }
     .sub_mail{
-        width: 280px;
+        width: 75%;
         margin: auto;
     }
     .sub_mail p{
-        padding: 10px 20px 10px 20px;
+        padding: 10px 14% 10px 10px;
     }
     .footer_content{
         display: inherit;
@@ -821,8 +842,7 @@
     }
     .footer_label{
         width: auto;
-        text-align: center;
-        padding: 80px 23px 0px 55px;
+        padding: 80px 35px 0px 68px;
     }
     .footer_label p{
         padding-left: 0px;
@@ -830,7 +850,7 @@
     .footer_more{
         display: flex;
         flex-direction: column;
-        text-align: center;
+        padding-left: 70px;
     }
     .footer_more p{
         margin-right: 0px;
@@ -868,34 +888,36 @@
         display: flex;
         padding-bottom: 10px;
     }
+    .banner_image{
+        width: 100%;
+    }
      .banner_content img{
         left: 50px;
         height: 450px;
-        width: 690px;
+        width: 90%;
     }
     .text{
-        top: 140px;
-        padding-left: 66px;
-        width: 190px; 
+        top: 120px;
+        padding-left: 400px;
+        width: 190px;
     }
     .text h2{
         margin-left: 0;
     }
     .text p{
-        line-height: 1.5rem;
-        width: 320px;
-        padding-top: 10px;
+        width: 209px;
         margin-left: 0;
     }
     .box{
         position: absolute;
+        left: 20px;
         top: 450px;
         right: 633px;
     }
     .arrow{
         position: absolute;
-        top: 473px;
-        left: 644px;
+        left: 84%;
+        top: 465px;
     } 
     .benifits_head{
         display: flex;
@@ -923,28 +945,23 @@
         padding: 60px 40px 10px 58px;  
     }
     .statistics_contents img{
-        width: 600px;
+        width: 90%;
         padding-left: 30px;
     }
     .stat_image{
-        width: 0%;
+        width: 100%;
     }
     .stat_text{
         width: 0%;
+        padding-left: 30px;
     }
     .stat_text h2{
         width: 328px;
-        padding: 10px 0px 15px 140px;
-        text-align: center;
+        padding: 10px 0px 15px 0px;
     }
     .text_p{
         width: 600px;
-        text-align: center;
-        padding-left: 22px;
-    }
-    .stat_numbers{
-        padding-left: 130px;
-    }
+    } 
     .stat_numbers h3{
         font-size: 3.2rem;
         color: rgb(90,110,121);
@@ -954,13 +971,13 @@
         padding-bottom: 50px;
     }
     .stat_text button{
-        margin-left: 230px;
+        margin-left: 100px;
         width: 180px;
         margin-top: 0;
     }
     .stat_text span{
         top: -54px;
-        left: 406px;
+        left: 276px;
     }
     .experience_content{
         flex-direction: column;
@@ -980,8 +997,11 @@
         margin-left: 100px;
         width: 500px;
     }
+    .experience_img{
+        width: 100%;
+    }
     .exp_image {
-        margin-left: 100px;
+        width: 90%;
     }
     .review_content{
         padding-left: 59px;
@@ -1011,7 +1031,7 @@
         margin: auto;
     }
     .sub_mail p{
-        padding: 10px 140px 10px 20px;
+        padding: 10px 190px 10px 20px;
     }
     .footer_content{
         flex-wrap: wrap;
@@ -1087,7 +1107,7 @@
     }
     .stat_text{
         width: 60%;
-        padding-left: 180px;
+        padding-left: 50px;
     }
     .text_p{
         width: 350px;
@@ -1148,7 +1168,7 @@
         height: 50px;
     }
     .sub_mail p{
-        padding: 10px 140px 10px 20px;
+        padding: 10px 30% 10px 20px;
     }
     .footer_content{
         padding-left: 110px;
