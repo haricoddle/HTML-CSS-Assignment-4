@@ -5,7 +5,7 @@
  .container{
     max-width: 1350px;
     margin: auto; 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(183, 56, 56);
     margin-block: -1px;
  }
  .nav_icons{
@@ -105,16 +105,16 @@
  }
  .benifits_head h2{
     font-size: 2rem;
-    padding-right: 800px;
+    width: 300px;
  }
  .perks_content{
     display: flex;
     gap: 1rem;
-    padding-left: 140px;
-    padding-right: 60px;
  }
  .qualities{
-    display: flex;  
+    display: flex;
+    width: 282px;
+    padding-left: 135px; 
  }
  .qualities p{
     padding-inline: 20px;
@@ -126,7 +126,7 @@
  }
  .statistics_contents{
     display: flex;
-    padding: 100px 60px 100px 140px;
+    padding-block: 100px;
  }
  .statistics_contents img{
     object-fit: cover;
@@ -136,10 +136,11 @@
  }
  .stat_image{
     width: 50%;
+    padding-left: 145px;
  }
  .stat_text{
     width: 50%;
-    padding-left: 120px;
+    padding-left: 107px;
  }
  .text_p{
     width: 527px;
@@ -182,12 +183,11 @@
  }
  .experience_content{
     display: flex;
-    padding-left: 140px;
-    padding-right: 70px;
     padding-bottom: 100px;
  } 
   .exp_details{
-    width: 50%;
+    width: 40%;
+    padding-left: 145px;
  }
  .exp_head {
     font-size: 2.5rem;
@@ -239,17 +239,13 @@
      width: 50%;
  }
  .exp_image {
-     object-fit: cover;
-     border-radius: 5px;
-     margin-top: 15px;
-     margin-bottom: 35px;
-     height: 530px;
-     padding-left: 52px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    height: 530px;
+    padding-left: 115px;
  } 
- .review_content{
-    padding-left: 140px;
-    padding-right: 110px;
- }
  .review_heading{
     display: flex;
     padding-bottom: 50px;
@@ -258,12 +254,14 @@
  .review_heading h2{
     font-size: 2.5rem;
     width: 309px;
+    padding-left: 145px;
  }
  .review_arrow{
     display: flex;
     gap: 2rem;
     font-size: 2rem;
     padding-top: 30px;
+    padding-right: 71px;
  }
  .fa-long-arrow-left{
     color: grey;
@@ -271,6 +269,7 @@
  .replys{
     display: flex;
     gap: 2rem;
+    padding-inline: 145px 71px;
  }
  .replys i{
     font-size: 5rem;
@@ -324,8 +323,6 @@
     margin-right: 25px;
  }
  .sub_content{
-    padding-left: 140px;
-    padding-right: 70px;
     text-align: center;
     padding-top: 100px;
     line-height: 1.5rem;
@@ -366,16 +363,14 @@
  }
  .footer_content{
     display: flex;
-    padding-left: 140px;
-    padding-right: 70px;
     padding-bottom: 80px ;
     background-color: rgb(90,110,121);
     color: white;
  }
  .footer_label{
     width: 30%;
-    padding-right: 50px;
     padding-top: 80px;
+    padding-inline: 130px 50px;
  }
  .footer_content h2{
     font-size: 1.8rem;
@@ -449,7 +444,7 @@
         left: 9px;
         width: 86%;
         line-height: 25px;
-        padding: 10px 15px 10px 15px;
+        padding: 10px 15px;
         border-radius: 5px;
     }
     .text p{
@@ -457,7 +452,6 @@
         width: 274px;
     }
     .text h2{
-        line-height: 2rem;
         margin-left: 0;
     }
     .benifits_head span{
@@ -470,8 +464,6 @@
     }
     .perks_content{
         flex-direction: column;
-        padding-left: 10px;
-        padding-right: 10px;
     }
     .qualities{
         padding-bottom: 15px;
@@ -479,10 +471,11 @@
     }
     .statistics_contents{
         flex-direction: column;
-        padding: 0px 25px 35px 10px;
+        padding-bottom: 35px;
     }
     .stat_image{
-        width: 100%;
+        width: 95%;
+        padding-inline: 0;
     }
     .statistics_contents img{
         height: 250px;
@@ -514,16 +507,14 @@
     }
     .experience_content{
         flex-direction: column;
-        padding-left: 10px;
-        padding-right: 15px;
         padding-bottom: 0px;
     }
     .exp_details{
         width: auto;
+        padding-left: 10px;
     }
     .exp_head {
         width: 298px;
-        margin-left: 5px;
         font-size: 2rem;
         line-height: 3rem;
     }
@@ -540,7 +531,7 @@
         width: 100%;
     }
     .exp_image {
-        width: 96%;
+        width: 92%;
         height: 280px;
         margin-left: 10px;
         padding-left: 5px;
@@ -554,12 +545,14 @@
     }
     .review_heading h2{
         font-size: 2.2rem;
+        padding-left: 15px;
     }
     .review_arrow{
         display: none;
     }
     .replys{
-        display: inline;
+        flex-direction: column;
+        padding-inline: 5px;
     }
     .reply_1{
         width: auto;
@@ -571,8 +564,6 @@
         margin-right: 10px;
     }
     .sub_content{
-        padding-left: 10px;
-        padding-right: 0px;
         padding-top: 30px;
     }
     .sub_content h2{
@@ -606,7 +597,7 @@
     .footer_label{
         width: 240px;
         padding-top: 80px;
-        padding-right: 0px;
+        padding-inline: 0px;
     }
     .footer_label p{
         padding-left: 0px;
@@ -670,7 +661,7 @@
         display: none;
     }
     .banner_content{
-        padding: 20px 0px 100px 20px;
+        padding-block: 20px 100px;
     }
     .banner_image{
         width: 100%;
@@ -697,7 +688,7 @@
     }
     .text p{
         margin-left: 0;
-        width: 440px;
+        width: 430px;
     }
     .benifits_head span{
         font-size: 4rem;
@@ -710,8 +701,6 @@
     }
     .perks_content{
         flex-direction: column;
-        padding-left: 20px;
-        padding-right: 10px;
     }
     .qualities{
         padding: 0px 0px 15px 20px;
@@ -729,10 +718,11 @@
     }
     .statistics_contents{
         flex-direction: column; 
-        padding: 0px 0px 20px 20px;
+        padding: 0px 0px 20px 0px;
     }
     .stat_image{
-        width: 100%;
+        width: 98%;
+        padding-left: 10px;
     }
     .statistics_contents img{
         height: 250px;
@@ -768,7 +758,6 @@
     .experience_content{
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
         padding-bottom: 20px;
     } 
     .exp_info_2 p{
@@ -778,18 +767,17 @@
          width: 100%;
      }
      .exp_image {
-        width: 96%;
+        width: 95%;
         margin-bottom: 0px;
-        padding-left: 20px;
+        padding-left: 10px;
      } 
     .exp_head{
         width: 470px;
         line-height: 3rem;
         padding-top: 20px;
     }
-    .review_content{
+    .exp_details{
         padding-left: 10px;
-        padding-right: 0;
     }
     .review_heading h2{
         padding: 40px 0px 0px 30px;
@@ -798,8 +786,9 @@
         display: none;
     }
     .replys{
-        width: 100%;
+        width: 95%;
         flex-direction: column;
+        padding-inline: 0;
     }
     .replys i{
         font-size: 5rem;
@@ -816,8 +805,6 @@
         padding-bottom: 25px;
     }
     .sub_content{
-        padding-left: 10px;
-        padding-right: 0px;
         padding-top: 30px;
     }
     .sub_content h2{
@@ -836,8 +823,7 @@
     }
     .footer_content{
         display: inherit;
-        padding-left: 0;
-        padding-right: 0px;
+        padding-inline: 0px;
     }
     .footer_content h2{
         padding-right: 60px;
@@ -932,9 +918,8 @@
     .benifits_head h2{
         padding-right: 191px;
     }
-    .perks_content{
-        padding-left: 50px;
-        padding-right: 5px;
+    .qualities{
+        padding-left: 0;
     }
     .qualities p{
         padding-inline: 20px;
@@ -944,14 +929,14 @@
     }
     .statistics_contents{
         flex-direction: column;
-        padding: 60px 40px 10px 58px;  
+       padding-block: 60px 10px; 
     }
     .statistics_contents img{
         width: 90%;
-        padding-left: 30px;
     }
     .stat_image{
-        width: 100%;
+        width: 95%;
+        padding-left: 20px;
     }
     .stat_text{
         width: 0%;
@@ -986,14 +971,17 @@
         padding-left: 0px;
         padding-bottom: 40px;
     }
+    .exp_details{
+        padding-left: 15px;
+    }
     .exp_head {
-        margin-left: 58px;
+        padding-left: 15px;
     }
     .number{
         margin: 0;
     }
     .exp_timeline {
-        margin-left: 58px;
+        padding-left: 15px;
     }
     .exp_info_2 p {
         margin-left: 100px;
@@ -1004,13 +992,16 @@
     }
     .exp_image {
         width: 90%;
+        padding-left: 30px;
     }
-    .review_content{
-        padding-left: 59px;
-        padding-right: 56px;
+    .review_heading h2{
+        padding-left: 15px;
     }
     .review_arrow{
         display: none;
+    }
+    .replys{
+        padding-inline: 20px ;
     }
     .profile p{
         line-height: 1.5rem ;
@@ -1022,8 +1013,7 @@
     }
     .sub_content h2{
         padding-left: 0px;
-        padding-right: 100px;
-        text-align: center;
+        padding-right: 46px;
         line-height: 2.5rem;
     }
     .sub_content p{
@@ -1038,15 +1028,13 @@
     }
     .footer_content{
         flex-wrap: wrap;
-        padding-left: 59px;
-        padding-right: 0px;
     }
     .footer_label{
         width: auto;
-        padding-right: 0px;
         padding-top: 72px;
         /* margin-left: 200px; */
         text-align: center;
+        padding-inline: 0;
     }
     .footer_content h2{
         padding-right: 50px;
@@ -1095,11 +1083,14 @@
         padding-right: 283px;
     }
     .perks_content{
-        padding-left: 110px;
         padding-top: 50px;
     }
+    .qualities{
+        padding-left: 60px;
+        width: 255px;
+    }
     .statistics_contents{
-        padding: 60px 60px 100px 110px;
+        padding-block: 60px;
     }
     .statistics_contents img{
         height: 515px;
@@ -1107,6 +1098,7 @@
     }
     .stat_image{
         width: 40%;
+        padding-left: 67px;
     }
     .stat_text{
         width: 60%;
@@ -1122,11 +1114,8 @@
         gap: 4.5rem;
         padding-top: 20px;
     }
-    .experience_content{
-        padding-left: 110px;
-    }
     .exp_details{
-        padding-right: 20px;
+        padding-inline: 64px 20px;
     }
     .exp_head {
         width: 440px;
@@ -1134,10 +1123,13 @@
     .exp_image {
         height: 580px;
         width: 410px;
-        padding-left: 0;
+        padding-left: 74px;
     }
-    .review_content{
-       padding-inline: 110px 60px;
+    .review_heading h2{
+        padding-left: 65px;
+    }
+    .replys{
+        padding-inline: 65px 45px;
     }
     .sub_content{
         padding: 65px 60px 0px 110px;
