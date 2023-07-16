@@ -815,11 +815,11 @@
         padding: 25px 0px 10px 20px;
     }
     .sub_mail{
-        width: 75%;
+        width: 400px;
         margin: auto;
     }
     .sub_mail p{
-        padding: 10px 14% 10px 10px;
+        padding: 10px 85px 10px 10px;
     }
     .footer_content{
         display: inherit;
@@ -1028,6 +1028,7 @@
     }
     .footer_content{
         flex-wrap: wrap;
+        justify-content: center;
     }
     .footer_label{
         width: auto;
