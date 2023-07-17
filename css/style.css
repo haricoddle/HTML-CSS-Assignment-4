@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
     margin: 0;
  }
@@ -1040,7 +1039,10 @@
     .footer_content h2{
         padding-right: 50px;
     }
-    .footer_content p {
+    .footer_content p{
+        margin-right: 0;
+    }
+    .footer_more p {
         margin-right: 40px
     }
  }
