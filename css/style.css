@@ -411,7 +411,6 @@
         font-size: 1.5rem;
     }
     .links{
-         justify-content: space-around;
         gap: 1.2rem;
         margin-right: 0;
     }
@@ -529,17 +528,13 @@
     .exp_timeline {
         margin-left: 10px;
     }
-    .exp_info_2 p {
-        width: auto;
-    }
     .experience_img{
         width: 100%;
     }
     .exp_image {
         width: 92%;
         height: 280px;
-        margin-left: 10px;
-        padding-left: 5px;
+        padding-left: 10px;
     }
     .review_content{
         padding-left: 10px;
@@ -584,7 +579,6 @@
     }
     .sub_mail{
         width: 300px;
-        margin: auto;
     }
     .sub_mail p{
         padding: 10px 20px 10px 14px;
@@ -594,8 +588,6 @@
     }
     .footer_content{
         flex-direction: column;
-        padding-left: 0;
-        padding-right: 0px;
         width: max-content;
     }
     .footer_content h2{
@@ -603,11 +595,7 @@
     }
     .footer_label{
         width: 240px;
-        padding-top: 80px;
         padding-inline: 0px;
-    }
-    .footer_label p{
-        padding-left: 0px;
     }
     .footer_more{
         flex-direction: column;
@@ -636,24 +624,16 @@
     }
     .logo{
         padding-bottom: 20px;
-        text-align: center;
-        font-size: 2rem;
-        color: rgb(90,110,121) ;
-        padding-right: 50px;
     }
     .logo p{
-        padding-left: 40px;
+        padding-left: 50px;
         font-size: 1.5rem;
-        color: rgb(90,110,121) ;
     }
     .links{
-        margin-right: 0;
         padding-left: 5px;
     }
     .links a{
         font-size: 1.2rem;
-        text-decoration: none;
-        color: black;
     }
     .icons{
         display: none;
@@ -692,33 +672,17 @@
     }
     .text p{
         margin-left: 0;
-        width: 430px;
+        width: 377px;
     }
     .benifits_head span{
         font-size: 4rem;
         padding-left: 20px;
-        padding-right: 20px;
-    }
-    .benifits_head h2{
-        font-size: 2rem;
-        padding-right: 0;
     }
     .perks_content{
         flex-direction: column;
     }
     .qualities{
         padding: 0px 0px 15px 20px;
-    }
-    .qualities img{
-        height: 64px;
-        width: 64px;
-    }
-    .qualities p{
-        padding-inline: 20px;
-        line-height: 1.5rem;
-    }
-    .qualities h3{
-        padding-left: 20px;
     }
     .statistics_contents{
         flex-direction: column; 
@@ -760,7 +724,6 @@
         margin-left: 125px;
     }
     .experience_content{
-        display: flex;
         flex-direction: column;
         padding-bottom: 20px;
     } 
@@ -794,10 +757,6 @@
         flex-direction: column;
         padding-inline: 0;
     }
-    .replys i{
-        font-size: 5rem;
-        padding-top: 20px;
-    }
     .reply_1{
         width: 75%;
         margin: auto;
@@ -820,14 +779,12 @@
     }
     .sub_mail{
         width: 400px;
-        margin: auto;
     }
     .sub_mail p{
         padding: 10px 85px 10px 10px;
     }
     .footer_content{
-        display: inherit;
-        padding-inline: 0px;
+        flex-direction: column;
     }
     .footer_content h2{
         padding-right: 60px;
@@ -836,13 +793,11 @@
         width: auto;
         padding: 80px 35px 0px 68px;
     }
-    .footer_label p{
-        padding-left: 0px;
-    }
     .footer_more{
         display: flex;
         flex-direction: column;
         padding-left: 70px;
+        padding-top: 15px;
     }
     .footer_more p{
         margin-right: 0px;
@@ -853,7 +808,7 @@
         padding-top: 25px;
     }
     .social{
-        justify-content: center;
+        justify-content: left;
         display: flex;
         padding-top: 20px;
         gap: 1.2rem;
@@ -866,21 +821,14 @@
     .logo{
         padding-right: 50px;
     }
-    .logo p{
-        font-size: 2rem;
-    }
     .links{
         margin-right: 35px;
         gap: 3rem;
-    }
-    .links a{
-        color: black;
     }
     .icons{
         gap: 2.5rem;
      } 
      .banner_content{
-        display: flex;
         padding-bottom: 10px;
     }
     .banner_image{
@@ -928,9 +876,6 @@
     .qualities{
         padding-left: 0;
     }
-    .qualities p{
-        padding-inline: 20px;
-    }
     .qualities h3{
         padding-left: 12px;
     }
@@ -956,14 +901,6 @@
     .text_p{
         width: 600px;
     } 
-    .stat_numbers h3{
-        font-size: 3.2rem;
-        color: rgb(90,110,121);
-    }
-    .stat_numbers p{
-        padding-top: 10px;
-        padding-bottom: 50px;
-    }
     .stat_text button{
         margin-left: 100px;
         width: 180px;
@@ -1040,7 +977,6 @@
     .footer_label{
         width: auto;
         padding-top: 72px;
-        /* margin-left: 200px; */
         text-align: center;
         padding-inline: 0;
     }
@@ -1164,11 +1100,11 @@
     .sub_mail p{
         padding: 10px 30% 10px 20px;
     }
-    .footer_content{
-        padding-inline: 110px 60px;
-    }
     .footer_label{
-        padding-inline: 0;
+        padding-left: 110px;
+    }
+    .footer_more{
+        padding-inline: 15px 20px;
     }
     .footer_content p{
         margin-right: 0px;
