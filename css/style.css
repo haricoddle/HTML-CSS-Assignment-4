@@ -842,14 +842,14 @@
     .text{
         top: 120px;
         padding-left: 400px;
-        width: 190px;
+        width: 100%;
     }
     .text h2{
-        margin-left: 0;
+        margin-left: 70%;
     }
     .text p{
         width: 209px;
-        margin-left: 0;
+        margin-left: 70%;
     }
     .box{
         position: absolute;
@@ -884,7 +884,7 @@
        padding-block: 60px 10px; 
     }
     .statistics_contents img{
-        width: 90%;
+        width: 100%;
     }
     .stat_image{
         width: 95%;
@@ -892,7 +892,7 @@
     }
     .stat_text{
         width: 0%;
-        padding-left: 30px;
+        padding-left: 20px;
     }
     .stat_text h2{
         width: 328px;
@@ -918,14 +918,8 @@
     .exp_details{
         padding-left: 15px;
     }
-    .exp_head {
-        padding-left: 15px;
-    }
     .number{
         margin: 0;
-    }
-    .exp_timeline {
-        padding-left: 15px;
     }
     .exp_info_2 p {
         margin-left: 100px;
@@ -935,8 +929,8 @@
         width: 100%;
     }
     .exp_image {
-        width: 90%;
-        padding-left: 30px;
+        width: 94%;
+        padding-left: 20px;
     }
     .review_heading h2{
         padding-left: 15px;
