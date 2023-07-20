@@ -384,7 +384,14 @@
     padding-top: 80px;
     justify-content: center;
     padding-left: 50px;
-    gap: 1.5rem;
+    gap: 4.2rem;
+     
+ }
+ .footer_more a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 2.2rem;
  }
  .footer_more h4{
     font-size: 1.2rem;
