@@ -654,9 +654,9 @@
     }
     .banner_content img{
         height: 300px;
-        width: 96%;
+        width: 94%;
         position: relative;
-        left: 0;
+        left: 7px;
         object-fit: cover;
         border-radius: 5px;
         padding-left: 9px;
@@ -696,8 +696,8 @@
     }
     .statistics_contents img{
         height: 250px;
-        width: 89%;
-        padding-left: 20px;
+        width: 95%;
+        padding-left: 6px;
     }
     .stat_text{
         width: auto;
@@ -773,11 +773,11 @@
         padding-top: 30px;
     }
     .sub_content h2{
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .sub_content p{
-        padding: 25px 0px 10px 20px;
+        padding: 25px 40px 10px 40px;
     }
     .sub_mail{
         width: 400px;
@@ -793,13 +793,14 @@
     }
     .footer_label{
         width: auto;
-        padding: 80px 35px 0px 68px;
+        padding: 80px 35px 0px 20px;
     }
     .footer_more{
         display: flex;
         flex-direction: column;
-        padding-left: 70px;
+        padding-left: 20px;
         padding-top: 15px;
+        gap: 1rem;
     }
     .footer_more h4{
         font-size: 1.6rem;
@@ -944,17 +945,14 @@
         line-height: 1.5rem ;
     }
     .sub_content{
-        padding-left: 35px;
-        padding-right: 0;
         padding-top: 44px;
     }
     .sub_content h2{
-        padding-left: 0px;
-        padding-right: 46px;
+       padding-inline: 50px;
         line-height: 2.5rem;
     }
     .sub_content p{
-        padding: 25px 50px 50px 20px;
+        padding: 25px 50px 50px 50px;
     }
     .sub_mail{
         margin: auto;
@@ -974,10 +972,14 @@
         padding-inline: 0;
     }
     .footer_content h2{
-        padding-right: 50px;
+        padding-inline: 25px;
     }
     .footer_content p{
+        padding-inline: 30px;
         margin-right: 0;
+    }
+    .footer_more{
+        gap: 3rem;
     }
  }
  @media screen and (min-width: 1024px) and (max-width: 1350px) {
@@ -1073,9 +1075,6 @@
     }
     .replys{
         padding-inline: 65px 45px;
-    }
-    .sub_content{
-        padding: 65px 60px 0px 60px;
     }
     .sub_content h2{
        padding-inline: 150px;
