@@ -415,14 +415,10 @@
     }
     .logo p{
         padding-left: 50px;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     .links{
-        gap: 1.2rem;
-        margin-right: 0;
-    }
-    .links a{
-        font-size: 1.2rem;
+        display: none;
     }
     .icons{
         display: none;
@@ -441,16 +437,16 @@
     }
     .banner_content img{
         height: 250px;
-        width: 95%;
+        width: 90%;
         left: 0;
-        padding-left: 9px;
+        padding:  0px 16px;
     }        
     .text{
         top: 328px;
-        left: 9px;
+        left: 16px;
         width: 86%;
         line-height: 25px;
-        padding: 10px 15px;
+        padding: 10px 7px;
         border-radius: 5px;
     }
     .text p{
@@ -467,8 +463,9 @@
     }
     .benifits_head h2{
         padding-right: 0;
-        line-height: 2.5rem;
-        font-size: 1.7rem
+        line-height: 2rem;
+        font-size: 1.7rem;
+        width: 249px;
     }
     .perks_content{
         flex-direction: column;
@@ -476,6 +473,9 @@
     .qualities{
         padding-bottom: 15px;
         padding-left: 35px;
+    }
+    .qualities img{
+        height:50px;
     }
     .statistics_contents{
         flex-direction: column;
@@ -488,7 +488,7 @@
     .statistics_contents img{
         height: 250px;
         width: 96%;
-        padding-left: 10px;
+        padding-left: 14px;
     }
     .stat_text{
         width: auto;
@@ -519,47 +519,52 @@
     }
     .exp_details{
         width: auto;
-        padding-left: 10px;
+        padding-left: 16px;
     }
     .exp_head {
         width: 298px;
         font-size: 1.6rem;
-        line-height: 3rem;
+        line-height: 2rem;
     }
     .exp_timeline h3{
         font-size: 1.4rem;
     }
     .number{
-        margin: 0;
+        width: 40px;
+        height: 40px;
+        line-height: 2.5rem;
+    }
+    .vertical_bar{
+        left: 20px;
     }
     .exp_timeline {
         margin-left: 10px;
+    }
+    .exp_info_2 p{
+        padding-right: 16px;
     }
     .experience_img{
         width: 100%;
     }
     .exp_image {
-        width: 92%;
+        width: 90%;
         height: 280px;
-        padding-left: 10px;
-    }
-    .review_content{
-        padding-left: 10px;
-        padding-right: 0
+        padding-left: 16px;
+        padding-right: 16px;
     }
     .review_heading{
         padding-bottom: 20px;
     }
     .review_heading h2{
         font-size: 1.6rem;
-        padding-left: 15px;
+        padding-left: 16px;
     }
     .review_arrow{
         display: none;
     }
     .replys{
         flex-direction: column;
-        padding-inline: 5px;
+        padding-inline: 16px;
     }
     .replys h2{
         font-size: 1.6rem;
@@ -567,22 +572,19 @@
     .reply_1{
         width: auto;
         margin-bottom: 20px;
-        margin-right: 10px;
     }
     .reply_2{
         width: auto;
-        margin-right: 10px;
     }
     .sub_content{
         padding-top: 30px;
     }
     .sub_content h2{
-        padding-left: 0px;
-        padding-right: 10px;
         font-size: 1.6rem;
+        padding-inline: 16px;
     }
     .sub_content p{
-        padding: 25px 6px 10px 0px;
+        padding: 25px 16px 10px 16px;
     }
     .sub_mail{
         width: 300px;
@@ -596,6 +598,8 @@
     .footer_content{
         flex-direction: column;
         width: max-content;
+        margin: 0;
+        padding-left: 16px;
     }
     .footer_content h2{
         padding-right: 60px;
@@ -660,7 +664,7 @@
     }        
     .text{
         top: 393px;
-        left: 29px;
+        left: 15px;
         width: 79%;
         padding: 10px 15px 10px 13px;
         border-radius: 10px;
@@ -752,17 +756,17 @@
         display: none;
     }
     .replys{
-        width: 95%;
+        width: 100%;
         flex-direction: column;
         padding-inline: 0;
     }
     .reply_1{
-        width: 75%;
+        width: 80%;
         margin: auto;
         padding-bottom: 25px;
     }
     .reply_2{
-        width: 75%;
+        width: 80%;
         margin: auto;
         padding-bottom: 25px;
     }
@@ -870,7 +874,7 @@
         padding-right: 191px;
     }
     .qualities{
-        padding-left: 0;
+        padding-left: 16px;
     }
     .qualities h3{
         padding-left: 12px;
@@ -1072,7 +1076,7 @@
         padding-inline: 65px 45px;
     }
     .sub_content{
-        padding: 65px 60px 0px 110px;
+        padding: 65px 60px 0px 60px;
     }
     .sub_content h2{
        padding-inline: 150px;
@@ -1088,12 +1092,13 @@
         padding: 10px 30% 10px 20px;
     }
     .footer_label{
-        padding-left: 110px;
+        padding-inline: 40px 20px;
     }
     .footer_content p{
         margin-right: 0px;
     }
     .footer_more{
         padding-inline: 15px 20px;
+        gap: 3.2rem;
     }
  }
