@@ -5,16 +5,13 @@
     max-width: 1350px;
     margin: auto; 
     margin-block: -1px;
-    background-color: white;
+    background-color: rgb(187, 68, 68);
  }
  .nav_icons{
     height: 150px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
- }
- .logo{
-    padding-right:60px;
  }
  .logo p{
     font-family: 'Roboto', sans-serif;
@@ -23,7 +20,7 @@
  }
  .links{
     display: flex;
-    gap: 5rem;
+    gap: 6rem;
  }
  .links a{
     font-size: 1.4rem;
@@ -32,25 +29,30 @@
  }
  .icons{
     display: flex;
-    gap: 3rem;
+    gap: 4rem;
     font-size: 1.4rem;
  } 
  .banner_content{
     display: flex;
  }
- .banner_content img{
+ .banner_image{
     position: relative;
-    left: 380px;
+    left: 220px;
+    z-index: 2;
+    width: 1129px;
+
+ }
+ .banner_content img{
     object-fit: cover;
     height: 500px;
-    width: 850px;
+    width: 99%;
     border-radius: 5px;
-    z-index: 2;
+   
  }
  .text{
     position: absolute;
     top: 200px;
-    right: 60%;
+    right: 68%;
     width: 100%;
     padding: 50px 24px;
     color: rgb(255, 255, 255);
@@ -74,7 +76,7 @@
     border-radius: 5px;
     position: relative;
     top: 420px;
-    right: 500px;
+    right: 937px;
     z-index: 1;
  }
  .arrow{
@@ -88,17 +90,16 @@
     background-color: rgb(90,110,121);
     border-radius: 5px;
     top: 440px;
-    left: 180px;
+    left: 8px;
     z-index: 3;
  }
- .benifits_head{
+  .benifits_head{
     display: flex;
     height: 200px;
     align-items: center;
  }
  .benifits_head span{
     font-size: 5rem;
-    padding-left: 150px;
     padding-right: 20px;
  }
  .benifits_head h2{
@@ -107,15 +108,14 @@
  }
  .perks_content{
     display: flex;
-    gap: 1rem;
+    justify-content: space-between;
  }
  .qualities{
     display: flex;
     width: 282px;
-    padding-left: 135px; 
  }
  .qualities p{
-    padding-inline: 20px;
+    padding-left: 20px;
     line-height: 1.5rem;
  }
  .qualities h3{
@@ -129,19 +129,17 @@
  .statistics_contents img{
     object-fit: cover;
     height: 500px;
-    width: 500px;
+    width: 550px;
     border-radius: 4px ;
  }
  .stat_image{
     width: 50%;
-    padding-left: 145px;
  }
  .stat_text{
     width: 50%;
-    padding-left: 107px;
  }
  .text_p{
-    width: 527px;
+    width: 585px;
  }
  .stat_text h2{
     font-size: 2.5rem;
@@ -184,13 +182,12 @@
     padding-bottom: 100px;
  } 
   .exp_details{
-    width: 40%;
-    padding-left: 145px;
+    width: 50%;
  }
  .exp_head {
     font-size: 2.5rem;
     line-height: 4rem;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
     width: 500px;
    }
    .exp_info_1{
@@ -202,19 +199,20 @@
      position: relative;
    } 
    .exp_info_2 p{
-    margin-left: 80px;
+    margin-left: 81px;
     width: auto;
     line-height: 1.7rem;
    }
   .number {
     width: 50px;
     height: 50px;
-    border-radius: 25px;
+    border-radius: 50%;
     background-color: rgb(90, 110, 121);
     color: white;
     text-align: center;
-    line-height: 3rem;
+    line-height: 3.5rem;
     margin: 0;
+    font-size: 1.4rem;
  } 
   .exp_timeline h3 {
     font-size: 25px;
@@ -224,12 +222,11 @@
  }
  .vertical_bar {
     position: absolute;
-    left: 24px;
+    left: 25px;
     width: 2px; 
     background-color: black; 
     height: 100%; 
   }
- 
   .exp_info_2:last-child .vertical_bar{
      visibility: hidden;
  }    
@@ -241,8 +238,8 @@
     border-radius: 5px;
     margin-top: 15px;
     margin-bottom: 35px;
-    height: 530px;
-    padding-left: 115px;
+    height: 615px;
+    padding-left: 120px;
  } 
  .review_heading{
     display: flex;
@@ -252,14 +249,12 @@
  .review_heading h2{
     font-size: 2.5rem;
     width: 309px;
-    padding-left: 145px;
  }
  .review_arrow{
     display: flex;
     gap: 2rem;
     font-size: 2rem;
     padding-top: 30px;
-    padding-right: 71px;
  }
  .fa-long-arrow-left{
     color: grey;
@@ -267,7 +262,6 @@
  .replys{
     display: flex;
     gap: 2rem;
-    padding-inline: 145px 71px;
     padding-bottom: 50px;
  }
  .replys i{
@@ -357,7 +351,7 @@
  .sub_mail p{
     padding: 10px 465px 10px 20px;
  }
- .footer{
+ footer{
     background-color: rgb(90, 110, 121);
  }
  .footer_content{
@@ -369,7 +363,7 @@
  .footer_label{
     width: 30%;
     padding-top: 80px;
-    padding-inline: 130px 50px;
+    padding-right: 25px;
  }
  .footer_content h2{
     font-size: 1.8rem;
@@ -384,8 +378,7 @@
     padding-top: 80px;
     justify-content: center;
     padding-left: 50px;
-    gap: 4.2rem;
-     
+    gap: 8rem;
  }
  .footer_more a{
     text-decoration: none;
@@ -413,8 +406,8 @@
         font-size: 2rem;
     }
     .logo p{
-        padding-left: 50px;
         font-size: 1.8rem;
+        padding-top: 20px;
     }
     .links{
         display: none;
@@ -430,15 +423,15 @@
     }
     .banner_content{
         padding-bottom: 145px;
+        padding: 0px 16px;
     }
     .banner_image{
         width: 100%;
+        left: 0;
     }
     .banner_content img{
         height: 250px;
-        width: 90%;
-        left: 0;
-        padding:  0px 16px;
+        width: 100%;
     }        
     .text{
         top: 328px;
@@ -456,9 +449,11 @@
         margin-left: 0;
         font-size: 1.6rem;
     }
+    .benifits_head{
+        padding: 110px 16px 0px 16px;
+    }
     .benifits_head span{
         font-size: 4rem;
-        padding-left: 20px;
     }
     .benifits_head h2{
         padding-right: 0;
@@ -470,28 +465,25 @@
         flex-direction: column;
     }
     .qualities{
-        padding-bottom: 15px;
-        padding-left: 35px;
+        padding: 0 16px 15px 16px;
     }
     .qualities img{
         height:50px;
     }
     .statistics_contents{
         flex-direction: column;
-        padding-block: 35px;
+        padding: 35px 16px;
     }
     .stat_image{
-        width: 95%;
+        width: 100%;
         padding-inline: 0;
     }
     .statistics_contents img{
         height: 250px;
-        width: 96%;
-        padding-left: 14px;
+        width: 100%;
     }
     .stat_text{
         width: auto;
-        padding-inline: 16px;
     }
     .text_p {
         width: 295px;
@@ -515,10 +507,10 @@
     .experience_content{
         flex-direction: column;
         padding-bottom: 0px;
+        padding: 0px 16px;
     }
     .exp_details{
         width: auto;
-        padding-left: 16px;
     }
     .exp_head {
         width: 298px;
@@ -540,30 +532,30 @@
         margin-left: 10px;
     }
     .exp_info_2 p{
-        padding-right: 16px;
+        margin-left: 70px;
     }
     .experience_img{
         width: 100%;
     }
     .exp_image {
-        width: 90%;
+        width: 100%;
         height: 280px;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 0;
+    }
+    .review_content{
+        padding-inline: 16px;
     }
     .review_heading{
         padding-bottom: 20px;
     }
     .review_heading h2{
         font-size: 1.6rem;
-        padding-left: 16px;
     }
     .review_arrow{
         display: none;
     }
     .replys{
         flex-direction: column;
-        padding-inline: 16px;
     }
     .replys h2{
         font-size: 1.6rem;
@@ -576,40 +568,39 @@
         width: auto;
     }
     .sub_content{
-        padding-top: 30px;
+        padding: 30px 16px 0px 16px;
     }
     .sub_content h2{
         font-size: 1.6rem;
-        padding-inline: 16px;
+        padding-inline: 0px;
     }
     .sub_content p{
-        padding: 25px 16px 10px 16px;
+        padding: 25px 0px 10px 0px;
     }
     .sub_mail{
-        width: 300px;
+        width: 287px;
     }
     .sub_mail p{
-        padding: 10px 20px 10px 14px;
+        padding: 10px 15px 10px 5px;
     }
     .sub_mail button {
         padding-inline: 19px;
     }
     .footer_content{
         flex-direction: column;
-        width: max-content;
         margin: 0;
+        padding-left: 16px;
     }
     .footer_content h2{
         padding-right: 60px;
     }
     .footer_label{
         width: 240px;
-        padding-inline: 16px 0px;
     }
     .footer_more{
         flex-direction: column;
         padding-top: 25px;
-        padding-left: 16px;
+        padding-left: 0;
         gap: 2rem;
     }
     .footer_more h4{
@@ -627,11 +618,11 @@
         padding-bottom: 20px;
     }
     .logo p{
-        padding-left: 50px;
         font-size: 1.5rem;
     }
     .links{
         padding-left: 5px;
+        gap: 5rem;
     }
     .links a{
         font-size: 1.2rem;
@@ -647,23 +638,24 @@
     }
     .banner_content{
         padding-block: 20px 100px;
+        padding-inline: 16px;
     }
     .banner_image{
         width: 100%;
+        left: 0;
     }
     .banner_content img{
         height: 300px;
-        width: 94%;
+        width: 98%;
         position: relative;
         left: 7px;
         object-fit: cover;
         border-radius: 5px;
-        padding-left: 9px;
     }        
     .text{
         top: 393px;
-        left: 15px;
-        width: 79%;
+        left: 22px;
+        width: 86%;
         padding: 10px 15px 10px 13px;
         border-radius: 10px;
         margin-top: 5px;
@@ -675,28 +667,32 @@
         margin-left: 0;
         width: 377px;
     }
+    .benifits_head{
+        padding-inline: 16px;
+    }
     .benifits_head span{
         font-size: 4rem;
-        padding-left: 20px;
     }
     .perks_content{
         flex-direction: column;
+        padding-inline: 16px;
     }
     .qualities{
-        padding: 0px 0px 15px 20px;
+        padding: 0px 0px 15px 0px;
+    }
+    .qualities p{
+        width: 382px;
     }
     .statistics_contents{
         flex-direction: column; 
-        padding: 0px 0px 20px 0px;
+        padding: 0px 16px 20px 16px;
     }
     .stat_image{
-        width: 98%;
-        padding-left: 10px;
+        width: 100%;
     }
     .statistics_contents img{
         height: 250px;
-        width: 95%;
-        padding-left: 6px;
+        width: 100%;
     }
     .stat_text{
         width: auto;
@@ -708,17 +704,14 @@
     .stat_text h2{
         font-size: 1.5rem;
         line-height: 2rem;
-        padding: 10px 0px 15px 20px;
+        padding: 10px 0px 15px 0px;
     }
     .stat_text p{
         line-height: 1.5rem;
-        padding: 0px 0px 5px 20px;
+        padding: 0px 0px 5px 0px;
     }
     .stat_numbers{
         gap: 3rem;
-    }
-    .stat_numbers h3 {
-        padding-left: 20px;
     }
     .stat_text button{
         margin-top: 0;
@@ -726,26 +719,33 @@
     }
     .experience_content{
         flex-direction: column;
-        padding-bottom: 20px;
+        padding: 0px 16px 20px 16px;
     } 
     .exp_info_2 p{
        width: 361px;
+       margin-left: 83px;
     }  
     .experience_img{
          width: 100%;
      }
      .exp_image {
-        width: 95%;
+        width: 100%;
         margin-bottom: 0px;
-        padding-left: 10px;
+        padding-left: 0px;
      } 
     .exp_head{
         width: 470px;
         line-height: 3rem;
         padding-top: 20px;
     }
-    .exp_details{
-        padding-left: 10px;
+    .number{
+        height: 50px;
+        width: 50px;
+        line-height: 3rem;
+        font-size: 1.2rem;
+    }
+    .vertical_bar{
+        left: 26px;
     }
     .review_heading h2{
         padding: 40px 0px 0px 30px;
@@ -754,26 +754,25 @@
         display: none;
     }
     .replys{
-        width: 100%;
+        width: 94%;
         flex-direction: column;
-        padding-inline: 0;
+        padding-inline: 16px;
     }
     .reply_1{
-        width: 80%;
+        width: 87%;
         margin: auto;
         padding-bottom: 25px;
     }
     .reply_2{
-        width: 80%;
+        width: 87%;
         margin: auto;
         padding-bottom: 25px;
     }
     .sub_content{
-        padding-top: 30px;
+        padding: 30px 16px 0px 16px;
     }
     .sub_content h2{
-        padding-left: 30px;
-        padding-right: 30px;
+      padding-inline: 0px;
     }
     .sub_content p{
         padding: 25px 40px 10px 40px;
@@ -786,18 +785,19 @@
     }
     .footer_content{
         flex-direction: column;
+        padding-inline: 16px;
     }
     .footer_content h2{
-        padding-right: 60px;
+        padding-right: 0px;
     }
     .footer_label{
         width: auto;
-        padding: 80px 35px 0px 20px;
+        padding: 80px 35px 0px 0px;
     }
     .footer_more{
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
+        padding-left: 0px;
         padding-top: 15px;
         gap: 1rem;
     }
@@ -816,32 +816,32 @@
  @media screen and (min-width: 700px) and (max-width: 1023.5px ) {
     .nav_icons{
         height: 80px;
-    }
-    .logo{
-        padding-right: 50px;
+        padding-inline: 20px;
     }
     .links{
         margin-right: 35px;
-        gap: 3rem;
+        gap: 2.5rem;
     }
     .icons{
         gap: 2.5rem;
      } 
      .banner_content{
         padding-bottom: 10px;
+        padding-inline: 20px;
     }
     .banner_image{
         width: 100%;
+        left: 0;
     }
      .banner_content img{
-        left: 50px;
         height: 450px;
-        width: 90%;
+        width: 100%;
     }
     .text{
         top: 120px;
         padding-left: 400px;
         width: 100%;
+        right: 60%;
     }
     .text h2{
         margin-left: 70%;
@@ -852,8 +852,8 @@
     }
     .box{
         position: absolute;
-        left: 20px;
-        top: 450px;
+        left: 4px;
+        top: 441px;
         right: 633px;
     }
     .arrow{
@@ -865,33 +865,29 @@
         display: flex;
         height: 200px;
         align-items: center;
-    }
-    .benifits_head span{
-        padding-left: 58px;
+        padding-inline: 20px;
     }
     .benifits_head h2{
         padding-right: 191px;
     }
-    .qualities{
-        padding-left: 16px;
+    .perks_content{
+        padding-inline: 20px;
     }
     .qualities h3{
         padding-left: 12px;
     }
     .statistics_contents{
         flex-direction: column;
-       padding-block: 60px 10px; 
+       padding: 60px 20px 10px 20px;
     }
     .statistics_contents img{
         width: 100%;
     }
     .stat_image{
-        width: 95%;
-        padding-left: 20px;
+        width: 100%;
     }
     .stat_text{
         width: 0%;
-        padding-left: 20px;
     }
     .stat_text h2{
         width: 328px;
@@ -911,13 +907,10 @@
     }
     .experience_content{
         flex-direction: column;
-        padding-bottom: 40px;
+        padding: 0px 20px 40px 20px;
     }
     .exp_head{
         line-height: 3rem;
-    }
-    .exp_details{
-        padding-left: 15px;
     }
     .number{
         margin: 0;
@@ -930,26 +923,23 @@
         width: 100%;
     }
     .exp_image {
-        width: 94%;
-        padding-left: 20px;
+        width: 100%;
+        padding-left: 0px;
     }
-    .review_heading h2{
-        padding-left: 15px;
+    .review_content{
+        padding-inline: 20px;
     }
     .review_arrow{
         display: none;
-    }
-    .replys{
-        padding-inline: 20px ;
     }
     .profile p{
         line-height: 1.5rem ;
     }
     .sub_content{
-        padding-top: 44px;
+        padding: 44px 20px 0px 20px;
     }
     .sub_content h2{
-       padding-inline: 50px;
+        padding-inline: 0px;
         line-height: 2.5rem;
     }
     .sub_content p{
@@ -965,6 +955,7 @@
     .footer_content{
         flex-wrap: wrap;
         justify-content: center;
+        padding-inline: 20px;
     }
     .footer_label{
         width: auto;
@@ -972,11 +963,7 @@
         text-align: center;
         padding-inline: 0;
     }
-    .footer_content h2{
-        padding-inline: 25px;
-    }
     .footer_content p{
-        padding-inline: 70px;
         margin-right: 0;
     }
     .footer_more{
@@ -986,19 +973,24 @@
  @media screen and (min-width: 1024px) and (max-width: 1350px) {
     .nav_icons{
         height: 80px;
+        padding-inline: 25px;
     }
     .logo p{
         font-size: 2.5rem;
     }
+    .links{
+        gap: 5rem;
+    }
     .banner_content {
         margin-bottom: 70px;
+        padding-inline: 25px;
     }
-     .banner_content img{
-        left: 110px;
+    .banner_image{
+        left: 0;
     }
     .text{
-        top: 200px;
-        padding: 50px 100px 50px 110px;
+        padding: 50px 20px 50px 110px;
+        right: 66%;
     }
     .text h2{
         margin-left: 71%;
@@ -1008,43 +1000,41 @@
     }
     .box{
         position: absolute;
-        top: 500px;
-        left: 86px;
+        top: 487px;
+        left: 10px;
     }
     .arrow{
         position: absolute;
-        left: 870px;
+        left: 890px;
         top: 513px;
     } 
     .benifits_head{
         margin-block: -72px;
-    }
-    .benifits_head span{
-        padding-left: 110px;
+        padding-inline: 25px;
     }
     .benifits_head h2{
         padding-right: 283px;
     }
     .perks_content{
         padding-top: 50px;
+        padding-inline: 25px;
     }
     .qualities{
-        padding-left: 60px;
         width: 255px;
     }
     .statistics_contents{
         padding-block: 60px;
+        padding: 60px 25px;
     }
     .statistics_contents img{
         height: 515px;
         width: 450px;
     }
     .stat_image{
-        width: 40%;
-        padding-left: 67px;
+        width: 50%;
     }
     .stat_text{
-        width: 60%;
+        width: 50%;
         padding-left: 50px;
     }
     .text_p{
@@ -1059,26 +1049,27 @@
     }
     .experience_content{
         padding-bottom: 20px;
+        padding:  0px 25px 20px 25px;
     }
     .exp_details{
-        padding-inline: 64px 20px;
+        padding-block: 0px 64px;
     }
     .exp_head {
         width: 440px;
     }
     .exp_image {
-        height: 580px;
+        height: 600px;
         width: 410px;
         padding-left: 74px;
     }
-    .review_heading h2{
-        padding-left: 65px;
+    .review_content{
+        padding-inline: 25px;
     }
-    .replys{
-        padding-inline: 65px 45px;
+    .sub_content{
+        padding-inline: 25px;
     }
     .sub_content h2{
-       padding-inline: 150px;
+       padding-inline: 0px;
     }
     .sub_content p{
         padding: 25px 200px 50px 200px;
@@ -1090,8 +1081,8 @@
     .sub_mail p{
         padding: 10px 30% 10px 20px;
     }
-    .footer_label{
-        padding-inline: 40px 20px;
+    .footer_content{
+        padding-inline: 25px;
     }
     .footer_content p{
         margin-right: 0px;
