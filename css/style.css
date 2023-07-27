@@ -37,7 +37,7 @@
  }
  .banner_image{
     position: relative;
-    left: 220px;
+    left: calc(100% - 84%);
     z-index: 2;
     width: 1129px;
 
@@ -90,7 +90,7 @@
     background-color: rgb(90,110,121);
     border-radius: 5px;
     top: 440px;
-    left: 90%;
+    left: 90.7%;
     z-index: 3;
  }
   .benifits_head{
@@ -179,10 +179,11 @@
  }
  .experience_content{
     display: flex;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    gap: 17rem;
  } 
   .exp_details{
-    width: 50%;
+    width: 59%;
  }
  .exp_head {
     font-size: 2.5rem;
@@ -228,18 +229,17 @@
     height: 100%; 
   }
   .exp_info_2:last-child .vertical_bar{
-     visibility: hidden;
+    visibility: hidden;
  }    
-    .experience_img{
-     width: 50%;
+  .experience_img{
+    width: 41%;
  }
  .exp_image {
     object-fit: cover;
     border-radius: 5px;
     margin-top: 15px;
     margin-bottom: 35px;
-    height: 615px;
-    padding-left: 120px;
+    height: 600px;
  } 
  .review_heading{
     display: flex;
@@ -473,6 +473,7 @@
     .statistics_contents{
         flex-direction: column;
         padding: 35px 16px;
+        gap: 0;
     }
     .stat_image{
         width: 100%;
@@ -508,6 +509,7 @@
         flex-direction: column;
         padding-bottom: 0px;
         padding: 0px 16px;
+        gap: 0;
     }
     .exp_details{
         width: auto;
@@ -686,6 +688,7 @@
     .statistics_contents{
         flex-direction: column; 
         padding: 0px 16px 20px 16px;
+        gap: 0;
     }
     .stat_image{
         width: 100%;
@@ -720,6 +723,7 @@
     .experience_content{
         flex-direction: column;
         padding: 0px 16px 20px 16px;
+        gap: 0;
     } 
     .exp_info_2 p{
        width: 361px;
@@ -877,6 +881,7 @@
     .statistics_contents{
         flex-direction: column;
        padding: 60px 20px 10px 20px;
+       gap: 0;
     }
     .statistics_contents img{
         width: 100%;
@@ -906,6 +911,7 @@
     .experience_content{
         flex-direction: column;
         padding: 0px 20px 40px 20px;
+        gap: 0;
     }
     .exp_head{
         line-height: 3rem;
@@ -1020,7 +1026,6 @@
         width: 255px;
     }
     .statistics_contents{
-        padding-block: 60px;
         padding: 60px 25px;
     }
     .statistics_contents img{
@@ -1045,8 +1050,8 @@
         padding-top: 20px;
     }
     .experience_content{
-        padding-bottom: 20px;
         padding:  0px 25px 20px 25px;
+        gap: 0;
     }
     .exp_details{
         padding-block: 0px 64px;
